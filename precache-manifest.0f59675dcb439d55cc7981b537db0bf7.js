@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "45b0347db5040d38b9de430cc5926bb8",
+    "revision": "4f25ec58ff0da6986dc9a9ddd258dd9c",
     "url": "/shiksha-work/index.html"
   },
   {
-    "revision": "e99d26e1a9238902e9d1",
+    "revision": "ddf1930bb94c3d7f1baa",
     "url": "/shiksha-work/static/css/main.cfcf1435.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/shiksha-work/static/js/2.1338624a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e99d26e1a9238902e9d1",
-    "url": "/shiksha-work/static/js/main.14267a38.chunk.js"
+    "revision": "ddf1930bb94c3d7f1baa",
+    "url": "/shiksha-work/static/js/main.e61efb8b.chunk.js"
   },
   {
     "revision": "dc0d8cddaf145051b23e",

@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/shiksha-work/static/css/main.cfcf1435.chunk.css",
-    "main.js": "/shiksha-work/static/js/main.14267a38.chunk.js",
-    "main.js.map": "/shiksha-work/static/js/main.14267a38.chunk.js.map",
+    "main.js": "/shiksha-work/static/js/main.e61efb8b.chunk.js",
+    "main.js.map": "/shiksha-work/static/js/main.e61efb8b.chunk.js.map",
     "runtime-main.js": "/shiksha-work/static/js/runtime-main.17cd0467.js",
     "runtime-main.js.map": "/shiksha-work/static/js/runtime-main.17cd0467.js.map",
     "static/js/2.1338624a.chunk.js": "/shiksha-work/static/js/2.1338624a.chunk.js",
     "static/js/2.1338624a.chunk.js.map": "/shiksha-work/static/js/2.1338624a.chunk.js.map",
     "index.html": "/shiksha-work/index.html",
-    "precache-manifest.b22dd868f2eb3ab235f11807092a6d2a.js": "/shiksha-work/precache-manifest.b22dd868f2eb3ab235f11807092a6d2a.js",
+    "precache-manifest.0f59675dcb439d55cc7981b537db0bf7.js": "/shiksha-work/precache-manifest.0f59675dcb439d55cc7981b537db0bf7.js",
     "service-worker.js": "/shiksha-work/service-worker.js",
     "static/css/main.cfcf1435.chunk.css.map": "/shiksha-work/static/css/main.cfcf1435.chunk.css.map",
     "static/js/2.1338624a.chunk.js.LICENSE.txt": "/shiksha-work/static/js/2.1338624a.chunk.js.LICENSE.txt",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.17cd0467.js",
     "static/js/2.1338624a.chunk.js",
     "static/css/main.cfcf1435.chunk.css",
-    "static/js/main.14267a38.chunk.js"
+    "static/js/main.e61efb8b.chunk.js"
   ]
 }
