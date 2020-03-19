@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7fa48286d07277330ee93da62dcccac1",
+    "revision": "75758ad340bec2281531ec69273cd987",
     "url": "/shiksha-work/index.html"
   },
   {
-    "revision": "67f9580865c0aa0b534b",
-    "url": "/shiksha-work/static/css/main.cfd8db01.chunk.css"
+    "revision": "1dc62c44b76fec31f5f3",
+    "url": "/shiksha-work/static/css/main.cfcf1435.chunk.css"
   },
   {
-    "revision": "4b53cfdc1bac7a78bade",
-    "url": "/shiksha-work/static/js/2.c634a291.chunk.js"
+    "revision": "0e138a36dca057a1d2fc",
+    "url": "/shiksha-work/static/js/2.1338624a.chunk.js"
   },
   {
     "revision": "f231859d6585c4cd5f80c344783ed269",
-    "url": "/shiksha-work/static/js/2.c634a291.chunk.js.LICENSE.txt"
+    "url": "/shiksha-work/static/js/2.1338624a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "67f9580865c0aa0b534b",
-    "url": "/shiksha-work/static/js/main.f1220bf0.chunk.js"
+    "revision": "1dc62c44b76fec31f5f3",
+    "url": "/shiksha-work/static/js/main.c94765c7.chunk.js"
   },
   {
     "revision": "dc0d8cddaf145051b23e",
