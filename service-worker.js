@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/shiksha-work/precache-manifest.48e780f1cfd5ce7d34e284b3f67c6568.js"
+  "/shiksha-work/precache-manifest.b22dd868f2eb3ab235f11807092a6d2a.js"
 );
 
 self.addEventListener('message', (event) => {
