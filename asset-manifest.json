@@ -1,27 +1,24 @@
 {
   "files": {
-    "main.css": "/shiksha-work/static/css/main.cfcf1435.chunk.css",
-    "main.js": "/shiksha-work/static/js/main.e61efb8b.chunk.js",
-    "main.js.map": "/shiksha-work/static/js/main.e61efb8b.chunk.js.map",
+    "main.css": "/shiksha-work/static/css/main.746270f8.chunk.css",
+    "main.js": "/shiksha-work/static/js/main.f48a4735.chunk.js",
+    "main.js.map": "/shiksha-work/static/js/main.f48a4735.chunk.js.map",
     "runtime-main.js": "/shiksha-work/static/js/runtime-main.17cd0467.js",
     "runtime-main.js.map": "/shiksha-work/static/js/runtime-main.17cd0467.js.map",
-    "static/js/2.1338624a.chunk.js": "/shiksha-work/static/js/2.1338624a.chunk.js",
-    "static/js/2.1338624a.chunk.js.map": "/shiksha-work/static/js/2.1338624a.chunk.js.map",
+    "static/js/2.4cc276d7.chunk.js": "/shiksha-work/static/js/2.4cc276d7.chunk.js",
+    "static/js/2.4cc276d7.chunk.js.map": "/shiksha-work/static/js/2.4cc276d7.chunk.js.map",
     "index.html": "/shiksha-work/index.html",
-    "precache-manifest.0f59675dcb439d55cc7981b537db0bf7.js": "/shiksha-work/precache-manifest.0f59675dcb439d55cc7981b537db0bf7.js",
+    "precache-manifest.2f5f5a765ff4fae436922d7455dad11a.js": "/shiksha-work/precache-manifest.2f5f5a765ff4fae436922d7455dad11a.js",
     "service-worker.js": "/shiksha-work/service-worker.js",
-    "static/css/main.cfcf1435.chunk.css.map": "/shiksha-work/static/css/main.cfcf1435.chunk.css.map",
-    "static/js/2.1338624a.chunk.js.LICENSE.txt": "/shiksha-work/static/js/2.1338624a.chunk.js.LICENSE.txt",
-    "static/media/image 2.jpg": "/shiksha-work/static/media/image 2.52063952.jpg",
-    "static/media/image 3.jpg": "/shiksha-work/static/media/image 3.8a248c5d.jpg",
-    "static/media/image 4.jpg": "/shiksha-work/static/media/image 4.42eeebd4.jpg",
-    "static/media/image 5.jpg": "/shiksha-work/static/media/image 5.415b6062.jpg",
-    "static/media/image 6.jpeg": "/shiksha-work/static/media/image 6.cd1a6d82.jpeg"
+    "static/css/main.746270f8.chunk.css.map": "/shiksha-work/static/css/main.746270f8.chunk.css.map",
+    "static/js/2.4cc276d7.chunk.js.LICENSE.txt": "/shiksha-work/static/js/2.4cc276d7.chunk.js.LICENSE.txt",
+    "static/media/back.svg": "/shiksha-work/static/media/back.f89d632a.svg",
+    "static/media/image 2.jpg": "/shiksha-work/static/media/image 2.52063952.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.17cd0467.js",
-    "static/js/2.1338624a.chunk.js",
-    "static/css/main.cfcf1435.chunk.css",
-    "static/js/main.e61efb8b.chunk.js"
+    "static/js/2.4cc276d7.chunk.js",
+    "static/css/main.746270f8.chunk.css",
+    "static/js/main.f48a4735.chunk.js"
   ]
 }
