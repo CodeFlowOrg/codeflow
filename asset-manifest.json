@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/shiksha-work/static/css/main.823fbb12.chunk.css",
-    "main.js": "/shiksha-work/static/js/main.89c38918.chunk.js",
-    "main.js.map": "/shiksha-work/static/js/main.89c38918.chunk.js.map",
-    "runtime-main.js": "/shiksha-work/static/js/runtime-main.17cd0467.js",
-    "runtime-main.js.map": "/shiksha-work/static/js/runtime-main.17cd0467.js.map",
-    "static/js/2.fbcb5763.chunk.js": "/shiksha-work/static/js/2.fbcb5763.chunk.js",
-    "static/js/2.fbcb5763.chunk.js.map": "/shiksha-work/static/js/2.fbcb5763.chunk.js.map",
-    "index.html": "/shiksha-work/index.html",
-    "precache-manifest.8985e2b782b119eb878675efc6dabdf7.js": "/shiksha-work/precache-manifest.8985e2b782b119eb878675efc6dabdf7.js",
-    "service-worker.js": "/shiksha-work/service-worker.js",
-    "static/css/main.823fbb12.chunk.css.map": "/shiksha-work/static/css/main.823fbb12.chunk.css.map",
-    "static/js/2.fbcb5763.chunk.js.LICENSE.txt": "/shiksha-work/static/js/2.fbcb5763.chunk.js.LICENSE.txt",
-    "static/media/back.svg": "/shiksha-work/static/media/back.f89d632a.svg",
-    "static/media/image 2.jpg": "/shiksha-work/static/media/image 2.52063952.jpg",
-    "static/media/logo.png": "/shiksha-work/static/media/logo.d6dd1ae3.png"
+    "main.css": "/codeflow/static/css/main.6bdf080d.chunk.css",
+    "main.js": "/codeflow/static/js/main.1ecbd387.chunk.js",
+    "main.js.map": "/codeflow/static/js/main.1ecbd387.chunk.js.map",
+    "runtime-main.js": "/codeflow/static/js/runtime-main.53712818.js",
+    "runtime-main.js.map": "/codeflow/static/js/runtime-main.53712818.js.map",
+    "static/js/2.fbcb5763.chunk.js": "/codeflow/static/js/2.fbcb5763.chunk.js",
+    "static/js/2.fbcb5763.chunk.js.map": "/codeflow/static/js/2.fbcb5763.chunk.js.map",
+    "index.html": "/codeflow/index.html",
+    "precache-manifest.be8a329955f9833d21bf448e01364f95.js": "/codeflow/precache-manifest.be8a329955f9833d21bf448e01364f95.js",
+    "service-worker.js": "/codeflow/service-worker.js",
+    "static/css/main.6bdf080d.chunk.css.map": "/codeflow/static/css/main.6bdf080d.chunk.css.map",
+    "static/js/2.fbcb5763.chunk.js.LICENSE.txt": "/codeflow/static/js/2.fbcb5763.chunk.js.LICENSE.txt",
+    "static/media/Tiny cute children learning coding.png": "/codeflow/static/media/Tiny cute children learning coding.c83ae83b.png",
+    "static/media/ex-header-background.jpg": "/codeflow/static/media/ex-header-background.d740b842.jpg",
+    "static/media/logo.png": "/codeflow/static/media/logo.b41ed9a7.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.17cd0467.js",
+    "static/js/runtime-main.53712818.js",
     "static/js/2.fbcb5763.chunk.js",
-    "static/css/main.823fbb12.chunk.css",
-    "static/js/main.89c38918.chunk.js"
+    "static/css/main.6bdf080d.chunk.css",
+    "static/js/main.1ecbd387.chunk.js"
   ]
 }
