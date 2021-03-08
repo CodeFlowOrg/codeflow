@@ -17,7 +17,7 @@ function App() {
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/about">About</Nav.Link>
             <Nav.Link href="/events">Events</Nav.Link>
-            <Nav.Link href="/teams">Team</Nav.Link>
+            <Nav.Link href="/team">Team</Nav.Link>
             <Nav.Link href="/contact">Contact Us</Nav.Link>
           </Nav>
         </Navbar>
