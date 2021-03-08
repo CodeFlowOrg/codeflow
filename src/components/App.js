@@ -1,6 +1,6 @@
 import "./styles/App.css";
 import { Nav, Navbar } from "react-bootstrap";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { HashRouter, Route } from "react-router-dom";
 import Home from "./home";
 import Team from "./team";
 import Events from "./event";
@@ -9,57 +9,29 @@ import Contact from "./contact";
 import Addevent from "./addevent";
 function App() {
   return (
-    <Router>
+    <HashRouter basename={process.env.PUBLIC_URL}>
       <div className="App">
         <Navbar bg="primary" variant="dark">
-          <Navbar.Brand href={process.env.PUBLIC_URL + "/"}>
-            Codeflow
-          </Navbar.Brand>
+          <Navbar.Brand href="/">Codeflow</Navbar.Brand>
           <Nav className="mr-auto">
-            <Nav.Link href={process.env.PUBLIC_URL + "/"}>Home</Nav.Link>
-            <Nav.Link href={process.env.PUBLIC_URL + "/about"}>About</Nav.Link>
-            <Nav.Link href={process.env.PUBLIC_URL + "/event"}>Events</Nav.Link>
-            <Nav.Link href={process.env.PUBLIC_URL + "/teams"}>Team</Nav.Link>
-            <Nav.Link href={process.env.PUBLIC_URL + "/contact"}>
-              Contact Us
-            </Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/about">About</Nav.Link>
+            <Nav.Link href="/events">Events</Nav.Link>
+            <Nav.Link href="/teams">Team</Nav.Link>
+            <Nav.Link href="/contact">Contact Us</Nav.Link>
           </Nav>
         </Navbar>
 
-        <Route
-          path="{process.env.PUBLIC_URL + '/'}"
-          exact={true}
-          component={Home}
-        />
-        <Route
-          path={process.env.PUBLIC_URL + "/teams"}
-          exact={true}
-          component={Team}
-        />
-        <Route
-          path={process.env.PUBLIC_URL + "/event"}
-          exact={true}
-          component={Events}
-        />
+        <Route path="/" exact={true} component={Home} />
+        <Route path="/team" exact={true} component={Team} />
+        <Route path="/events" exact={true} component={Events} />
 
-        <Route
-          path={process.env.PUBLIC_URL + "/about"}
-          exact={true}
-          component={About}
-        />
-        <Route
-          path={process.env.PUBLIC_URL + "/contact"}
-          exact={true}
-          component={Contact}
-        />
+        <Route path="/about" exact={true} component={About} />
+        <Route path="/contact" exact={true} component={Contact} />
 
-        <Route
-          path={process.env.PUBLIC_URL + "/add"}
-          exact={true}
-          component={Addevent}
-        />
+        <Route path="/Add" exact={true} component={Addevent} />
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
