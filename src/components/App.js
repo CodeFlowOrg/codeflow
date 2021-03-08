@@ -12,7 +12,9 @@ function App() {
     <Router>
       <div className="App">
         <Navbar bg="primary" variant="dark">
-          <Navbar.Brand href="/">Codeflow</Navbar.Brand>
+          <Navbar.Brand href={process.env.PUBLIC_URL + "/"}>
+            Codeflow
+          </Navbar.Brand>
           <Nav className="mr-auto">
             <Nav.Link href={process.env.PUBLIC_URL + "/"}>Home</Nav.Link>
             <Nav.Link href={process.env.PUBLIC_URL + "/about"}>About</Nav.Link>
