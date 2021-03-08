@@ -6,6 +6,7 @@ import Team from "./team";
 import Events from "./event";
 import About from "./about";
 import Contact from "./contact";
+import Addevent from "./addevent";
 function App() {
   return (
     <Router>
@@ -24,8 +25,11 @@ function App() {
         <Route path="/" exact={true} component={Home} />
         <Route path="/team" exact={true} component={Team} />
         <Route path="/events" exact={true} component={Events} />
+
         <Route path="/about" exact={true} component={About} />
         <Route path="/contact" exact={true} component={Contact} />
+
+        <Route path="/Add" exact={true} component={Addevent} />
       </div>
     </Router>
   );
