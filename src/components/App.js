@@ -13,24 +13,24 @@ function App() {
   return (
     <HashRouter basename={process.env.PUBLIC_URL}>
       <div className="App">
-        <Navbar className=" justify-content-between">
+        <Navbar className="justify-content-between">
           <Link to="/">
             <img src={logo} alt="logo" height="60px" className="m-1" />
           </Link>
           <div className=" navs">
-            <Link className=" m-3 nav " to="/">
+            <Link className=" m-2 nav " to="/">
               Home
             </Link>
-            <Link className=" m-3 nav" to="/about">
+            <Link className=" m-2 nav" to="/about">
               About
             </Link>{" "}
-            <Link className=" m-3 nav" to="/events">
+            <Link className=" m-2 nav" to="/events">
               Events
             </Link>
-            <Link className=" m-3 nav" to="/team">
+            <Link className=" m-2 nav" to="/team">
               Team
             </Link>{" "}
-            <Link className=" m-3 nav" to="/contact">
+            <Link className=" m-2 nav" to="/contact">
               Contact Us
             </Link>
           </div>

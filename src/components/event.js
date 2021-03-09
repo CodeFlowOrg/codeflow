@@ -19,7 +19,11 @@ const Events = () => {
             <div className="col-5">
               <Accordion defaultActiveKey="0">
                 <Card>
-                  <img src={doc.url} className="col-12 " />
+                  <img
+                    src={doc.url}
+                    className="
+                   "
+                  />
 
                   <div className="text-white bg-warning p-2"> {doc.title}</div>
                   <Card.Header>

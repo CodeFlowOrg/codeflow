@@ -1,6 +1,4 @@
 .Home {
-  position: absolute;
-  top: 0;
   z-index: -1;
   background-image: url("../../assets/ex-header-background.jpg");
   height: 100vh;

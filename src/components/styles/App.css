@@ -8,7 +8,8 @@
 .navs {
   display: inline-flex;
 }
-.nav-bar {
+.navbar {
   position: absolute;
   top: 0;
+  background-color: rgb(1 191 217);
 }
