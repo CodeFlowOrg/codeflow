@@ -1,1 +1,14 @@
+.nav,
+.nav:hover {
+  color: inherit;
+  text-decoration: none;
+  color: white;
+}
 
+.navs {
+  display: inline-flex;
+}
+.nav-bar {
+  position: absolute;
+  top: 0;
+}

@@ -1,7 +1,7 @@
-import "./styles/App.css";
+import "./styles/Home.css";
 
 function Home() {
-  return <div>home</div>;
+  return <div className="Home">home</div>;
 }
 
 export default Home;
