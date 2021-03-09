@@ -3,6 +3,7 @@ import "./styles/App.css";
 import { useState } from "react";
 import { Card, Accordion, Button } from "react-bootstrap";
 import { Alert } from "bootstrap";
+import Customnav from "./customnavbar";
 const Events = () => {
   const { docs } = useFirestore("events");
   const [index, setIndex] = useState(0);
@@ -11,17 +12,18 @@ const Events = () => {
     setIndex(selectedIndex);
   };
   return (
-    <div className="m-4">
+    <div className="events">
+      <Customnav color="#01bfd9" height="50px" />
       Events
       <div className="container">
         {docs &&
           docs.map((doc) => (
-            <div className="col-5">
+            <div className="col-5  mw-50">
               <Accordion defaultActiveKey="0">
                 <Card>
                   <img
                     src={doc.url}
-                    className="
+                    className="img.fluid
                    "
                   />
 

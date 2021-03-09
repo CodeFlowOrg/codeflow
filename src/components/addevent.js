@@ -1,5 +1,7 @@
 import { React, useState, useEffect } from "react";
 import "./styles/App.css";
+import Customnav from "./customnavbar";
+
 import { Form, Alert, Button } from "react-bootstrap";
 import ProBar from "./progressbar";
 const Addevent = () => {
@@ -58,6 +60,7 @@ const Addevent = () => {
 
   return (
     <div>
+      <Customnav color="#01bfd9" height="30px" />
       <div className="container">
         <div className="row m-3">
           <div className="col-6">
