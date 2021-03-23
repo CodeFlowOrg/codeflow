@@ -14,20 +14,36 @@ const Customnav = (props) => {
           <img src={logo} alt="logo" height={props.height} />
         </Link>
         <div className=" navs">
-          <Link className=" m-2 nav " to="/">
-            Home
+          <Link style={{paddingLeft: props.padding, 
+            paddingRight: props.padding
+          }} 
+          className=" m-2 nav " to="/">
+            HOME
           </Link>
-          <Link className=" m-2 nav" to="/about">
-            About
+          <Link style={{paddingLeft: props.padding, 
+            paddingRight: props.padding
+          }}  
+          className=" m-2 nav" to="/about">
+            ABOUT
           </Link>{" "}
-          <Link className=" m-2 nav" to="/events">
-            Events
+          <Link style={{paddingLeft: props.padding, 
+            paddingRight: props.padding
+          }}  
+          className=" m-2 nav" to="/events">
+            EVENTS
           </Link>
-          <Link className=" m-2 nav" to="/team">
-            Team
+          <Link style={{paddingLeft: props.padding, 
+            paddingRight: props.padding
+          }}  
+          className=" m-2 nav" to="/team">
+            TEAM
           </Link>{" "}
-          <Link className=" m-2 nav" to="/contact">
-            Contact Us
+          <Link
+          style={{paddingLeft: props.padding, 
+            paddingRight: props.padding
+          }}  
+          className=" m-2 nav" to="/contact">
+            CONTACT US
           </Link>
         </div>
       </Navbar>

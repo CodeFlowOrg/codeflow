@@ -4,20 +4,19 @@ import Customnav from "./customnavbar";
 
 function Home() {
   return (
-    <div className="Home">
-      <Customnav color="" height="60px" />
-      <div className="container">
-        <div className="row">
-          <div className="col-4 ">
-            {" "}
-            hargun <br />
-            helloo
-          </div>
-          <div className="col-8">
-            <img src={img1} className="img-fluid h-70 w-80" />
-          </div>
-        </div>
+    <div className="Home" id="Home">
+      <Customnav color="" height="80px" padding="5vh"/>  
+    <div className="parent">
+      <div class="col-5 son"> 
+        <span id="codeflow-text" className="codeflow-text"><b>Codeflow</b></span>
+        <span id="learning-text" className="learning-text"><b>Learning</b></span>
+        <span className="break"></span>
+        <span id="learning-text" className="learning-text"><b>must go on</b></span>
+      </div> 
+      <div class="col-7 daughter"> 
+        <img src={img1} alt="loading"/>
       </div>
+    </div>
     </div>
   );
 }
