@@ -1,5 +1,4 @@
 .Home {
-  z-index: -1;
   background-image: url("../../assets/ex-header-background.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -12,6 +11,7 @@
 }
 
 .parent {
+  position: fixed;
   background-size: cover;
   position: fixed;
   width: 100%;
