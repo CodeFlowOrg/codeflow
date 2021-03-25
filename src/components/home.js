@@ -5,7 +5,7 @@ import Customnav from "./customnavbar";
 function Home() {
   return (
     <div className="Home" id="Home">
-      <Customnav color="" height="80px" padding="5vh"/>  
+      <Customnav color="" height="50px" padding="5vh"/>  
     <div className="parent">
       <div class="col-5 son"> 
         <span id="codeflow-text" className="codeflow-text"><b>Codeflow</b></span>

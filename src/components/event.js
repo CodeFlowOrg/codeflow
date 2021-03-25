@@ -13,7 +13,7 @@ const Events = () => {
   };
   return (
     <div className="events">
-      <Customnav color="#01bfd9" height="50px" />
+      <Customnav color="#01bfd9" height="50px" padding="5vh"/>
       Events
       <div className="container">
         {docs &&
