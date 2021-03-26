@@ -1,0 +1,73 @@
+.navs {
+    display: inline-flex;
+  }
+  .Collabrated
+  {
+    text-align:center;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+  }
+  .focus
+  {
+    text-align: center;
+    font-size: 2.5rem;
+    border: 5rem;
+    padding:5rem 2rem 2rem 2rem;
+    font-weight:500;
+    ;
+  }
+  .img
+  {
+    flex-shrink: 0;
+    min-width: 50%;
+    min-height: 50%;
+    border: 5px solid rgb(172, 171, 171); 
+  
+  }
+  .item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+    overflow: hidden;
+    position:absolute;
+  }
+  
+  .img1 {
+    width: 250px;
+    height: 200px;
+    border: 2.5px solid rgb(194, 192, 192); 
+    transition: transform .7s;
+  }
+  .img1:hover
+  {
+    transform: scale(1.02);
+  }
+  .caption {
+    display: block;
+    color:green;
+    padding:1rem 0rem;
+    font-weight: 1000;
+    transition: transform .7s;
+  }
+  .caption:hover
+  {
+      transform:scale(1.2);
+
+  }
+  
+  .orange
+  {
+    color:orange;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+  .green
+  {
+    color:green;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+  
