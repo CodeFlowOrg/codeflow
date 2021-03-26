@@ -1,7 +1,6 @@
 # Codeflow
 
-It is a simple react routing web site for code flow.
-
+Official website of codeflow
 
 ## Prerequisites
 
