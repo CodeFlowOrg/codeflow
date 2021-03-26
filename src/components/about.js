@@ -1,4 +1,5 @@
 import "./styles/about.css";
+import "./styles/App.css";
 import Customnav from "./customnavbar";
 import colla from "../assets/colla.png";
 import team from "../assets/team.jpg";
