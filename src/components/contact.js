@@ -14,7 +14,7 @@ function Contact() {
     <div className="contact">
       <Customnav color="#01bfd9" height="50px" padding="5vh" />
       <div className="nhi-custom">
-        <a href="https://github.com/codeflow201" target="_blank">
+        <a href="https://github.com/codefloworg" target="_blank">
           <Card className="text-center">
             <Card.Body>
               <Card.Text>
