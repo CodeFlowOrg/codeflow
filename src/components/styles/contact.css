@@ -1,0 +1,46 @@
+.contact {
+	
+  background: linear-gradient(to right, #e4e6a5, #f0df81); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+ 
+}
+
+.nhi-custom {
+	width: 95vw;
+	max-width: 37rem;
+	padding: 1.5rem;
+	margin: auto;
+}
+
+.panel {
+	border-radius: 15px;
+	box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.2),
+		0 0 0 1px rgba(10, 10, 10, 0.04);
+	font-size: 1rem;
+}
+
+.panel-block,
+.panel-heading {
+	border: 0;
+}
+
+.panel-heading:nth-child {
+	border-top: 0;
+}
+
+.card {
+	border-radius: 0.5rem;
+	box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1),
+		0 0 0 1px rgba(10, 10, 10, 0.02);
+	transition: transform 200ms ease-in;
+	margin-top: 2rem;
+}
+
+.card:hover {
+	transform: scale(1.05);
+	cursor: pointer;
+}
+
+.card-content, .media {
+		overflow: hidden;
+}

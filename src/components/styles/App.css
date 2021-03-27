@@ -4,6 +4,13 @@
   text-decoration: none;
   color: white;
 }
+a,
+a:hover {
+
+  text-decoration: none;
+ 
+}
+
 
 .navs {
   display: inline-flex;

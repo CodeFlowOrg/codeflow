@@ -12,7 +12,7 @@ const Addevent = () => {
   const [heading, setHeading] = useState(null);
   const [description, setDescription] = useState(null);
 
-  const types = ["image/png", "image.jpeg", "image.jpg"];
+  const types = ["image/png", "image/jpeg", "image/jpg"];
   const changehandler = (e) => {
     let selected = e.target.files[0];
     if (selected && types.includes(selected.type)) {
