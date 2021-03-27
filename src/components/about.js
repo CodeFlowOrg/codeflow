@@ -12,33 +12,33 @@ function About() {
       <Customnav color="#01bfd9" height="50px" />
       <div>
         {" "}
-        <h6 class="Collabrated">Collaborated With</h6>
+        <h6 className="Collabrated">Collaborated With</h6>
       </div>
-      <div class="d-flex justify-content-center">
-        <div class="">
-          {/* <img class="img-fluid" src={colla} alt="Image" /> */}
+      <div className=" justify-content-center">
+        <div className="">
+          {/* <img className="img-fluid" src={colla} alt="Image" /> */}
         </div>
       </div>
 
-      <div class="focus">Our Focus Areas</div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 item community-image-div">
-            <img class="img1" src={team} alt="Image" />
+      <div className="focus">Our Focus Areas</div>
+      <div className="container">
+        <div className="row">
+          <div className="col-4 ">
+            <img className="img1" src={team} alt="Image" />
             <div>
-              <span class="caption orange">Community Building</span>
+              <span className="caption orange ">Community Building</span>
             </div>
           </div>
-          <div class="col-md-4 item">
-            <img class="img1 img-opensource" src={opensource} alt="Image" />
+          <div className="col-4 ">
+            <img className="img1 img-opensource" src={opensource} alt="Image" />
             <div>
-              <span class="caption green">Open Source</span>
+              <span className="caption green">Open Source</span>
             </div>
           </div>
-          <div class="youtube-div col-md-4 item">
-            <img class="img1 img-youtube" src={youtube} alt="Image" />
+          <div className="col-4 ">
+            <img className="img1 img-youtube" src={youtube} alt="Image" />
             <div>
-              <span class="caption orange">Youtube</span>
+              <span className="caption orange">Youtube</span>
             </div>
           </div>
         </div>
