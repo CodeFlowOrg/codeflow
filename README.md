@@ -2,8 +2,6 @@
 
 Official website of codeflow
 
-tasks:
-[]
 
 ## Prerequisites
 
