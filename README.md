@@ -1,6 +1,6 @@
 # Codeflow
 
-Official website of codeflow
+Official website of codeflow on React and Firebase
 
 
 ## Prerequisites
