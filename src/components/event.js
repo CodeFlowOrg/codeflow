@@ -16,7 +16,7 @@ const Events = () => {
       <Customnav color="#01bfd9" height="50px" padding="5vh" />
       <div class="focus">Events</div>
       <div className=" ">
-        <div className="row justify-content-center">
+        <div className="row justify-content-center row-custom">
           {docs &&
             docs.map((doc) => (
               <div className="col-md-6 col-lg-3  col-sm-12 margin-card event-div">

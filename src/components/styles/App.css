@@ -18,7 +18,7 @@ a:hover {
   display: inline-flex;
 }
 
-.row{
+.row-custom{
   margin: 0 !important;
 }
 .margin-card{
@@ -29,12 +29,6 @@ a:hover {
   min-height: 42vh;
   width: 80% !important;
 }
-
-.card{
-  margin-top: 0 !important;
-
-}
-
 
 
 .card img{
