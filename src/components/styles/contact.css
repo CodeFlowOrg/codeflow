@@ -1,15 +1,16 @@
 .contact {
-	
+
   background: linear-gradient(to right, #e4e6a5, #f0df81); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
- 
+
 }
 
 .nhi-custom {
 	width: 95vw;
 	max-width: 37rem;
-	padding: 1.5rem;
+	padding: 2.5rem 1.5rem;
 	margin: auto;
+	height: calc(100vh - 66px);
 }
 
 .panel {
