@@ -22,6 +22,7 @@ const Events = () => {
               <div className="col-md-6 col-lg-3  col-sm-12 margin-card event-div">
                 <Accordion defaultActiveKey="0">
                   <Card>
+                  <div className="card-banner">
                     <img
                       src={doc.url}
                       className="img.fluid
@@ -37,6 +38,7 @@ const Events = () => {
                         Know More !
                       </Accordion.Toggle>
                     </Card.Header>
+                    </div>
                     <Accordion.Collapse eventKey="1">
                       <Card.Body>
                         <p>{doc.content}</p>

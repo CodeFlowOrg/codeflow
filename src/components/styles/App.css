@@ -26,20 +26,19 @@ a:hover {
   margin-bottom: 3rem !important;
 }
 .event-div{
-  height: 42vh;
+  min-height: 42vh;
   width: 80% !important;
 }
 
 .card{
   margin-top: 0 !important;
-  height: 100%;
+
 }
 
-.accordion{
-  height: 100%;
-}
+
 
 .card img{
+  width: 100%;
   height: 60%;
 }
 
@@ -54,4 +53,8 @@ a:hover {
   display: flex;
   align-items: center;
   padding-left: 1 rem;
+}
+
+.card-banner{
+  height: 42vh;
 }
