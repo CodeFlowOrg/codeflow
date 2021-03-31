@@ -21,7 +21,8 @@ a:hover {
 .row{
   margin: 0 !important;
 }
-.m-3{
+.margin-card{
+  margin: 1rem;
   margin-bottom: 3rem !important;
 }
 .event-div{

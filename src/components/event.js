@@ -19,7 +19,7 @@ const Events = () => {
         <div className="row justify-content-center">
           {docs &&
             docs.map((doc) => (
-              <div className="col-md-6 col-lg-3  col-sm-12 m-3 event-div">
+              <div className="col-md-6 col-lg-3  col-sm-12 margin-card event-div">
                 <Accordion defaultActiveKey="0">
                   <Card>
                     <img
