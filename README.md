@@ -2,41 +2,51 @@
 
 Official website of codeflow on React and Firebase
 
+## Design of Home Page 
+Scrollable Home Page with 1920x1080 px dimension in one Frame. Click ![Home](https://user-images.githubusercontent.com/67871592/113320047-b4bd8f80-932f-11eb-87e8-08f613976350.png) to see the design.
 
-## Prerequisites
+## Prerequisites for Environment Setup
 
-* [Install Bootstrap](https://www.npmjs.com/package/bootstrap)
-* [Install Firebase](https://www.npmjs.com/package/firebase)
-* [Install Github Pages](https://www.npmjs.com/package/gh-pages)
-* [Install JQuery](https://www.npmjs.com/package/jquery)
-* [Install React](https://www.npmjs.com/package/react)
-* [Install React Bootstrap](https://www.npmjs.com/package/react-bootstrap)
-* [Install React DOM](https://www.npmjs.com/package/react-dom)
-* [Install React Router DOM](https://www.npmjs.com/package/react-router-dom)
-* [Install Web Vitals](https://www.npmjs.com/package/web-vitals)
-* [Install React Scripts](https://www.npmjs.com/package/react-scripts)
+* [Download and Install Nodejs](https://nodejs.org/en/download/)
 
+Open terminal, write the following command and press enter
+```
+$ npm -v
+```
+terminal should return your npm version.
+
+* [Download and install git](https://git-scm.com/downloads)
 
 
-## Setup for CodeFlow
+## Environment Setup for CodeFlow
 
   ### 1. Clone App
   
- 
-     $ git clone git@github.com:CodeFlow201/codeflow.git
-
+  * Make a new folder and open the terminal there.
+  * Write the following command and press enter.
+  
+  ```
+    $ git clone git@github.com:CodeFlow201/codeflow.git
+  ```
     
  ### 2. Install node packages
+ 
+  * Move inside the cloned folder with name codeflow.
+  * Write the following command and press enter to download all required node modules.
+ 
    ```
-   $ npm install 
+   $ npm install .
   ```
   
-   ### 3. Run Locally 
-   ```
-   $ npm run start  
-  ```
-  NOTE: The port by default will be ```http://localhost:3000/```
+### 3. Run Locally
 
+ * While you are still inside the cloned folder, write the following command to run the website locally. 
+ 
+ ```
+   $ npm run start
+ ```
+  
+  NOTE: The port by default will be ```http://localhost:3000/```
 
 
 ## Want to Contribute?
@@ -45,11 +55,8 @@ To start contributing, follow the below guidelines:
 
 **1.**  Fork [this](git@github.com:CodeFlow201/codeflow.git) repository.
 
-**2.**  Clone your forked copy of the project.
+**2.**  Follow the Environment setup above.
 
-     $ git clone https://github.com/<your_user_name>/codeflow.git
-
-     
 **3.** Checkout into a new branch 
 
      $ git checkout -b <branch_name>
