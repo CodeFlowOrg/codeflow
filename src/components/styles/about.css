@@ -1,5 +1,4 @@
-
-  .Collabrated
+.Collabrated
   {
     text-align:center;
     margin-top: 4rem;
@@ -12,7 +11,9 @@
     border: 5rem;
     padding:5rem 2rem 2rem 2rem;
     font-weight:500;
-    ;
+  }
+  .about__cards{
+    justify-content: space-around;
   }
   .img
   {
@@ -20,10 +21,7 @@
     min-width: 50%;
     min-height: 50%;
     border: 5px solid rgb(172, 171, 171); 
-  
   }
- 
-  
   .img1 {
     width: 250px;
     height: 200px;
@@ -36,29 +34,18 @@
   }
   .caption {
     display: block;
-    color:green;
+    color:orange;
     padding:1rem 0rem;
-    font-weight: 1000;
+    font-weight: 500;
     transition: transform .7s;
+    font-size: 1.5rem;
   }
   .caption:hover
   {
       transform:scale(1.2);
-
-  }
-  
-  .orange
-  {
-    color:orange;
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 1.5rem;
   }
   .green
   {
     color:green;
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 1.5rem;
   }
   
