@@ -3,7 +3,7 @@
 Official website of codeflow on React and Firebase
 
 ## Design of Home Page 
-Scrollable Home Page with 1920x1080 px dimension in one Frame. Click ![Home](https://user-images.githubusercontent.com/67871592/113320047-b4bd8f80-932f-11eb-87e8-08f613976350.png) to see the design.
+Scrollable Home Page with 1920x1080 px dimension in one Frame. Click [Home](https://user-images.githubusercontent.com/67871592/113320047-b4bd8f80-932f-11eb-87e8-08f613976350.png) to see the design.
 
 ## Prerequisites for Environment Setup
 
