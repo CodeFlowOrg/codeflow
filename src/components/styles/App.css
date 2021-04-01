@@ -1,4 +1,4 @@
-.nav,
+ .nav,
 .nav:hover {
   color: inherit;
   text-decoration: none;
@@ -8,7 +8,7 @@ a,
 a:hover {
 
   text-decoration: none;
- 
+
 }
 
 .ctr{
@@ -16,4 +16,39 @@ a:hover {
 }
 .navs {
   display: inline-flex;
+}
+
+.row-custom{
+  margin: 0 !important;
+}
+.margin-card{
+  margin: 1rem;
+  margin-bottom: 3rem !important;
+}
+.event-div{
+  min-height: 42vh;
+  width: 80% !important;
+}
+
+
+.card img{
+  width: 100%;
+  height: 60%;
+}
+
+.title-div{
+  min-height: 21% !important;
+}
+
+.card-header{
+  margin-bottom: 0 !important;
+  height: 19%;
+  border-bottom: none !important;
+  display: flex;
+  align-items: center;
+  padding-left: 1 rem;
+}
+
+.card-banner{
+  height: 42vh;
 }

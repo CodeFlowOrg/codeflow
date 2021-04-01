@@ -1,4 +1,4 @@
-import useFirestore from "./hooks/useFirestore";
+ import useFirestore from "./hooks/useFirestore";
 import "./styles/App.css";
 import { useState } from "react";
 import { Card, Accordion, Button } from "react-bootstrap";
@@ -16,19 +16,20 @@ const Events = () => {
       <Customnav color="#01bfd9" height="50px" padding="5vh" />
       <div class="focus">Events</div>
       <div className=" ">
-        <div className="row justify-content-center">
+        <div className="row justify-content-center row-custom">
           {docs &&
             docs.map((doc) => (
-              <div className="col-3 m-3">
+              <div className="col-md-6 col-lg-3  col-sm-12 margin-card event-div">
                 <Accordion defaultActiveKey="0">
                   <Card>
+                  <div className="card-banner">
                     <img
                       src={doc.url}
                       className="img.fluid
                    "
                     />
 
-                    <div className="text-white bg-warning p-2">
+                    <div className="text-white bg-warning p-2 title-div">
                       {" "}
                       {doc.title}
                     </div>
@@ -37,6 +38,7 @@ const Events = () => {
                         Know More !
                       </Accordion.Toggle>
                     </Card.Header>
+                    </div>
                     <Accordion.Collapse eventKey="1">
                       <Card.Body>
                         <p>{doc.content}</p>
