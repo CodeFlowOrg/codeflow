@@ -2,11 +2,9 @@
 
 Official website of codeflow on React and Firebase
 
-<br/>
 ## Design of Home Page 
 Scrollable Home Page with 1920x1080 px dimension in one Frame. Click [Home](https://user-images.githubusercontent.com/67871592/113320047-b4bd8f80-932f-11eb-87e8-08f613976350.png) to see the design.
 
-<br/>
 ## Prerequisites for Environment Setup
 
 * [Download and Install Nodejs](https://nodejs.org/en/download/)
@@ -19,10 +17,9 @@ terminal should return your npm version.
 
 * [Download and install git](https://git-scm.com/downloads)
 
-<br/>
 ## Environment Setup for CodeFlow
 
-  ### 1. Clone App
+  #### 1. Clone App
   
   * Make a new folder and open the terminal there.
   * Write the following command and press enter.
@@ -31,7 +28,7 @@ terminal should return your npm version.
     $ git clone git@github.com:CodeFlow201/codeflow.git
   ```
     
- ### 2. Install node packages
+ #### 2. Install node packages
  
   * Move inside the cloned folder with name codeflow.
   * Write the following command and press enter to download all required node modules.
@@ -40,7 +37,7 @@ terminal should return your npm version.
    $ npm install .
   ```
   
-### 3. Run Locally
+#### 3. Run Locally
 
  * While you are still inside the cloned folder, write the following command to run the website locally. 
  
@@ -48,9 +45,8 @@ terminal should return your npm version.
    $ npm run start
  ```
   
-  NOTE: The port by default will be ```http://localhost:3000/```
+ ###### NOTE: The port by default will be ```http://localhost:3000/```
   
-<br/>
 ## Want to Contribute?
 
 To start contributing, follow the below guidelines: 
@@ -73,7 +69,6 @@ To start contributing, follow the below guidelines:
 
      $ git push origin <branch_name>   
 
-<br/>
 ## Contributors
 <table>
   <tr>
