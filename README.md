@@ -9,7 +9,7 @@ Scrollable Home Page with 1920x1080 px dimension in one Frame. Click [Home](http
 
 * [Download and Install Nodejs](https://nodejs.org/en/download/)
 
-Open terminal, write the following command and press enter
+* Open terminal, write the following command and press enter.
 ```
 $ npm -v
 ```
