@@ -7,9 +7,14 @@ import {
   FaYoutube,
   FaTelegram,
 } from "react-icons/fa";
+import useForm from './hooks/useForm'
+import validator from './validator'
 // import { Card } from "react-bootstrap";
 
 function Contact() {
+const{handleChange, values , handleSubmit , errors} = useForm(validator)
+
+
   return (
     <div className="contact">
       <Customnav color="#01bfd9" height="50px" padding="5vh" />
@@ -23,48 +28,53 @@ function Contact() {
     </div>
     <div className="contactContainer__leftIcons">
       <a href="https://github.com/codeflow201" target="_blank" className='contactContainer__leftIcon'>
-      <FaGithubSquare className='contact__icon' size={22}  />
+      <FaGithubSquare className='contact__icon' size={23.5}  />
       </a>
       <a href="https://www.linkedin.com/company/codefloworg/" target="_blank" className='contactContainer__leftIcon'>
-      <FaLinkedin className='contact__icon' size={22} />
+      <FaLinkedin className='contact__icon' size={23.5} />
       </a>
       <a href="https://twitter.com/codefloworg" target="_blank" className='contactContainer__leftIcon'>
-      <FaTwitterSquare className='contact__icon' size={22}  />
+      <FaTwitterSquare className='contact__icon' size={23.5}  />
       </a>
       <a    href="https://www.youtube.com/channel/UCIsECRBRWOalTC51co-tJWg"
           target="_blank" className='contactContainer__leftIcon'>
-      <FaYoutube className='contact__icon' size={22}  />
+      <FaYoutube className='contact__icon' size={23.5}  />
       </a>
       <a href="https://t.me/joinchat/FdJhyMumJK5sryCv" target="_blank" className='contactContainer__leftIcon'>
-      <FaTelegram  className='contact__icon' size={22} />
+      <FaTelegram  className='contact__icon' size={23.5} />
       </a>
     </div>
   </div>
- <form action="#">
+ <form onSubmit={handleSubmit}>
    <div className="form__first">
      <div className="form__first-group">
        <label>First Name </label>
-         <input type="text"/>
+         <input onChange={handleChange} value={values.firstname} name='firstname' type="text"/>
+         {errors.firstname && <p>{errors.firstname}</p>}
      </div>
      <div className="form__first-group">
        <label>Last Name </label>
-         <input type="text"/>
+         <input onChange={handleChange} value={values.lastname} name='lastname' type="text"/>
+         {errors.lastname && <p>{errors.lastname}</p>}
      </div>
    </div>
    <div className="form__first">
      <div className="form__first-group">
        <label>E-Mail </label>
-         <input type="email"/>
+         <input onChange={handleChange} value={values.email} name='email' type="email"/>
+         {errors.email && <p>{errors.email}</p>}
      </div>
      <div className="form__first-group">
        <label>Phone-No </label>
-         <input type="number"/>
+         <input onChange={handleChange} value={values.phone} name='phone' type="number"/>
+         {errors.phone && <p>{errors.phone}</p>}
      </div>
    </div>
    <div className="form__first">
      <div className="form__first-group">
        <label>Message </label>
-      <textarea></textarea>
+      <textarea onChange={handleChange} value={values.message} name='message'></textarea>
+      {errors.message && <p>{errors.message}</p>}
      </div>
    </div>
    <button type='submit' className='form__btn'> Submit</button>
