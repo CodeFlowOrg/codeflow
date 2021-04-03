@@ -22,20 +22,21 @@ function About() {
 
       <div className="focus">Our Focus Areas</div>
       <div className="container">
-        <div className="row">
-          <div className="col-4 ">
+        <div className="row about__cards">
+          <div className="about__card ">
             <img className="img1" src={team} alt="Image" />
+
             <div>
               <span className="caption orange ">Community Building</span>
             </div>
           </div>
-          <div className="col-4 ">
+          <div className="about__card ">
             <img className="img1 img-opensource" src={opensource} alt="Image" />
             <div>
               <span className="caption green">Open Source</span>
             </div>
           </div>
-          <div className="col-4 ">
+          <div className="about__card ">
             <img className="img1 img-youtube" src={youtube} alt="Image" />
             <div>
               <span className="caption orange">Youtube</span>

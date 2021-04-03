@@ -34,7 +34,7 @@ const Events = () => {
                       {doc.title}
                     </div>
                     <Card.Header>
-                      <Accordion.Toggle as={Button} variant="info" eventKey="1">
+                      <Accordion.Toggle as={Button} variant="info" eventKey="1" >
                         Know More !
                       </Accordion.Toggle>
                     </Card.Header>
