@@ -3,7 +3,6 @@ import { Grow, Container, TextField, Button, Typography, Paper } from '@material
 
 import useStyles from './ContactStyle'
 import Card from './Card';
-import './styles/Card.css'
 
 
 const ContactUs = () => {
@@ -33,17 +32,17 @@ const ContactUs = () => {
 
 
 
-                            <Button classes={ { contained: classes.btnCol, label: classes.label } } variant="contained" size="large" type="submit" onClick={ handleSubmit } fullWidth>Submit</Button>
+                            <Button classes={ { contained: classes.btnCol } } variant="contained" size="large" type="submit" onClick={ handleSubmit } fullWidth>Submit</Button>
 
-                            <Button variant="contained" color="secondary" size="small" fullWidth>Clear</Button>
+                            <Button classes={ { contained: classes.clrBtn } } variant="contained" color="secondary" size="small" fullWidth>Clear</Button>
                         </form>
                     </Paper >
 
                 </Grow>
 
             </Container>
-
             <Card />
+
         </Container>
     )
 }
