@@ -116,11 +116,5 @@ const Social = styled.div`
 	padding: 2px;
 	width: max-content;
 }
-#linkedin svg {
-	fill: #0e76a8;
-}
-#github {
-	fill: #333;
-}
 `;
 export default Card;
