@@ -1,5 +1,4 @@
 .contact {
-	/* background: linear-gradient(to right, #e4e6a5, #f0df81); */
 	height: auto;
 }
 .contact__Packet{
@@ -20,21 +19,21 @@
 	right: 0;
 	bottom: 0;
 	width: 100%;
-	background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.pexels.com/photos/955081/pexels-photo-955081.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+	background-image:linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url(../../assets/contactImg.jpg);
 	background-size: cover;
 	z-index: -1;
 }
 .contact__Packet h1{
 	margin: 0.8rem 0;
 	font-weight: bold;
-	color: #fff;
+	color: rgb(0, 0, 0);
 }
 .contact__container{
 	display: flex;
 	padding: 10px;
 	border-radius: 15px;
-	height: 67.5vh;
-	backdrop-filter: blur(14px);
+	height: auto;
+	backdrop-filter: blur(7px);
 	border: 1px solid rgba(226, 225, 225, 0.568);
 	box-shadow: -10px 9px 12px 0px rgba(0,0,0,0.75);
 -webkit-box-shadow: -10px 9px 12px 0px rgba(0,0,0,0.75);
@@ -65,7 +64,7 @@
 	color: #fafafa;
 }
 form{
-	padding: 30px;
+	padding: 25px;
 	width: 80%;
 }
 .form__first{
@@ -83,7 +82,7 @@ form{
 .form__first-group label{
 font-size: 1rem;
 font-weight: 500;
-color: rgba(219, 216, 216, 0.822);
+color:black;
 }
 .form__first-group input , .form__first-group textarea{
 	background: transparent;
@@ -94,14 +93,24 @@ color: rgba(219, 216, 216, 0.822);
 	font-size: 1rem;
 	font-weight: 400;
 	cursor: pointer;
-	color: white;
+	color: rgb(0, 0, 0);
 	transition: all 0.4s ease;
 } 
+.form__first-group input:hover{
+	border-bottom: 2px solid #01BFD9;
+}
+.form__first-group textarea:hover{
+	border-bottom: 2px solid #01BFD9;
+}
 .form__first-group input:focus{
 	border-bottom: 2px solid #01BFD9;
 }
 .form__first-group textarea:focus{
 	border-bottom: 2px solid #01BFD9;
+}
+.form__first-group p{
+	color: red;
+	margin-bottom: 0;
 }
 .form__btn{
 	background-color: #01BFD9;
@@ -118,8 +127,11 @@ color: rgba(219, 216, 216, 0.822);
 	transform: scale(1.05);
 }
 
-
-
+@media(max-width:900px){
+	.contactContainer__leftIcon{
+		padding: 0 0.3rem !important;
+	}
+}
 @media(max-width:760px){
 	.contact__container{
 		flex-direction: column;
@@ -130,7 +142,6 @@ color: rgba(219, 216, 216, 0.822);
 		flex-direction: column;
 	}
 	.contact__container{
-		height: auto;
 		width: 350px;
 	}
 form{
