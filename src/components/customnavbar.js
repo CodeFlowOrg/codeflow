@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./styles/customnav.css";
 import logo from "../assets/logo.png";
 import { Navbar } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { NavLink,Link } from "react-router-dom";
 import { HiOutlineViewList } from "react-icons/hi";
 
 const Customnav = (props) => {
@@ -27,41 +27,41 @@ const Customnav = (props) => {
           </Link>
         </div>
         <div className="navs" id={showLinks ? "hidden" : ""}>
-          <Link
+          <NavLink activeClassName='nav_active'
             className=" m-2 nav navbar-link-css"
             to="/"
             onClick={() => setShowLinks(!showLinks)}
           >
             HOME
-          </Link>
-          <Link
+          </NavLink>
+          <NavLink activeClassName='nav_active'
             className=" m-2 nav navbar-link-css"
             to="/about"
             onClick={() => setShowLinks(!showLinks)}
           >
             ABOUT
-          </Link>{" "}
-          <Link
+          </NavLink>{" "}
+          <NavLink activeClassName='nav_active'
             className=" m-2 nav navbar-link-css"
             to="/events"
             onClick={() => setShowLinks(!showLinks)}
           >
             EVENTS
-          </Link>
-          <Link
+          </NavLink>
+          <NavLink activeClassName='nav_active'
             className=" m-2 nav navbar-link-css"
             to="/team"
             onClick={() => setShowLinks(!showLinks)}
           >
             TEAM
-          </Link>{" "}
-          <Link
+          </NavLink>{" "}
+          <NavLink activeClassName='nav_active'
             className=" m-2 nav navbar-link-css"
             to="/contact"
             onClick={() => setShowLinks(!showLinks)}
           >
             CONTACT US
-          </Link>
+          </NavLink>
         </div>
       </Navbar>
     </div>
