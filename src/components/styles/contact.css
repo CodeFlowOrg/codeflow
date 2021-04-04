@@ -19,7 +19,7 @@
 	right: 0;
 	bottom: 0;
 	width: 100%;
-	background-image:linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url(../../assets/contactImg.jpg);
+	 background-image:linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0))/*, url(../../assets/contactImg.jpg); */ ;
 	background-size: cover;
 	z-index: -1;
 }
