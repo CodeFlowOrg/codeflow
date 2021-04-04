@@ -19,6 +19,7 @@ export default makeStyles((theme) => ({
     form: {
         display: 'flex',
         flexWrap: 'wrap',
+        width: "100%",
         justifyContent: 'center',
     },
     buttonSubmit: {

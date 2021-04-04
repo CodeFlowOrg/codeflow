@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Grow, Container, TextField, Button, Typography, Paper } from '@material-ui/core';
 
 import useStyles from './ContactStyle'
-import Card from './Card';
+import SocialLinks from './SocialLinks';
 
 
 const ContactUs = () => {
@@ -41,7 +41,7 @@ const ContactUs = () => {
                 </Grow>
 
             </Container>
-            <Card />
+            <SocialLinks />
 
         </Container>
     )
