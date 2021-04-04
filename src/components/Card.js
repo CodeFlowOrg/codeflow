@@ -59,8 +59,6 @@ const ContactStyle = styled.div`
 
 `;
 
-
-
 const Hide = styled.div`
   overflow: hidden;
   display: flex;
@@ -115,6 +113,12 @@ const Social = styled.div`
 .social-btn:hover span {
 	padding: 2px;
 	width: max-content;
+}
+#linkedin svg {
+	fill: #0e76a8;
+}
+#github {
+	fill: #333;
 }
 `;
 export default Card;
