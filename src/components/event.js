@@ -1,9 +1,11 @@
- import useFirestore from "./hooks/useFirestore";
-import "./styles/App.css";
+import useFirestore from "./hooks/useFirestore";
+import "./styles/event.css";
 import { useState } from "react";
 import { Card, Accordion, Button } from "react-bootstrap";
 import { Alert } from "bootstrap";
 import Customnav from "./customnavbar";
+import team from "../assets/team.jpg";
+import{ BsCalendar} from 'react-icons/bs'
 const Events = () => {
   const { docs } = useFirestore("events");
   const [index, setIndex] = useState(0);
@@ -13,8 +15,8 @@ const Events = () => {
   };
   return (
     <div className="events ">
-      <Customnav color="#01bfd9" height="50px" padding="5vh" />
-      <div class="focus">Events</div>
+      <Customnav color="" height="50px" padding="5vh" />
+      {/* <div class="focus">Events</div>
       <div className=" ">
         <div className="row justify-content-center row-custom">
           {docs &&
@@ -49,6 +51,27 @@ const Events = () => {
               </div>
             ))}
         </div>
+      </div> */}
+      <div className="events__cardOutline">
+      <div className="events__upcomingCard">
+        <img src={team} alt="thumbnail" />
+        <div className="events__upcomingCardinfo">
+          <button className="events__upcomingCard-btn1">Register Now</button>
+          <h2>Heading of the event</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+            suscipit temporibus, eaque qui corrupti corporis{" "}
+          </p>
+          <button className="events__upcomingCard-btn2">Category</button>
+          <div className="events__upcomingCardTiming">
+             <BsCalendar className='events__upcomingCardIcon' />
+             <div className="events__upcomingCardTime">
+               <p>Date: 21stJan,2021</p>
+               <p>Time: 4:00pm - 5:00pm</p>
+             </div>
+          </div>
+        </div>
+      </div>
       </div>
     </div>
   );
