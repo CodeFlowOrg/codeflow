@@ -1,0 +1,68 @@
+.cards {
+  width: 270px;
+  padding: 10px;
+  height: 360px;
+  background-color: #fff;
+  border-radius: 20px;
+  margin: 2rem 2rem;
+}
+.card__img {
+  height: 140px;
+  width: 250px;
+  border-radius: 20px;
+}
+.card__info {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.card__infoTxt h4 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.card__infoTxt h4 span {
+  font-size: 0.6rem;
+  background-color: #12232e;
+  color: white;
+  padding: 2px 28px;
+  border-radius: 30px;
+  text-transform: capitalize;
+}
+.card__infoTxt p {
+  font-size: 0.8rem;
+  margin-bottom: 0.6rem;
+}
+.card__infoTime {
+  display: flex;
+  align-items: center;
+}
+.card__infoTime-icon {
+  width: 40px;
+  height: 40px;
+  color: black;
+}
+.card__infoTime-time p {
+  margin-bottom: 3px;
+  margin-top: 3px;
+  margin-left: 4px;
+  background-color: #12232e;
+  font-size: x-small;
+  color: #fff;
+  text-align: center;
+  padding: 0 30px;
+  border-radius: 40px;
+}
+.card__btn {
+  width: 100%;
+  border: none;
+  outline: none;
+  color: white;
+  margin-top: 10px;
+  background-color: #007cc7;
+  padding: 4px 0;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+.card__btn:hover {
+  background-color:#2097e0 ;
+}
