@@ -5,6 +5,7 @@ import Customnav from "./customnavbar";
 import team from "../assets/team.jpg";
 import youtube from "../assets/youtube.png";
 import opensource from "../assets/opensource.jpg";
+import Testimonials from "./Testimonials";
 
 function About() {
   return (
@@ -19,7 +20,7 @@ function About() {
           {/* <img className="img-fluid" src={colla} alt="Image" /> */}
         </div>
       </div>
-
+      <Testimonials />
       <div className="focus">Our Focus Areas</div>
       <div className="container">
         <div className="row about__cards">
