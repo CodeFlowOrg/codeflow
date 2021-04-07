@@ -1,12 +1,13 @@
 .navs .navbar-link-css {
+  color: #fff;
   padding-left: 5vh;
   padding-right: 5vh;
 }
 .navbar-link-css:hover{
-  color: #000;
+  color: #fff;
 }
 .nav_active{
-  color: #000;
+  color: #fff;
 }
 
 .headings-logos-buttons .nav-dynamic-button {

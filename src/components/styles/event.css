@@ -17,7 +17,7 @@
   height: auto;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("../../assets/Balnk\ Background\ 4.png");
+  background-image: url("../../assets/Blank\ Background\ 4.png");
 }
 .events__cardOutline {
   display: flex;
@@ -105,6 +105,7 @@
 }
 .event__infoSvg img{
   width: 350px;
+  height: 350px;
 }
 .event__infoText{
   text-align: center;
