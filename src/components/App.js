@@ -1,12 +1,13 @@
-import "./styles/App.css";
+import './styles/App.css';
 
-import { HashRouter, Route, Link } from "react-router-dom";
-import Home from "./home";
-import Team from "./team";
-import Events from "./event";
-import About from "./about";
-import Contact from "./contact";
-import Addevent from "./addevent";
+import { HashRouter, Route, Link } from 'react-router-dom';
+import Home from './home';
+import Team from './team';
+import Events from './event';
+import About from './about';
+import Contact from './contact';
+import Addevent from './addevent';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/about" exact={true} component={About} />
         <Route path="/contact" exact={true} component={Contact} />
         <Route path="/Add" exact={true} component={Addevent} />
+        <Footer />
       </div>
     </HashRouter>
   );
