@@ -1,0 +1,14 @@
+#testimonials {
+  background-color: #12232d;
+}
+.testimonial-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+#testimonials h1 {
+  color: #edfbfb;
+}
+.tesimonial-item {
+  background-color: #edfbfb;
+  max-width: 350px;
+}
