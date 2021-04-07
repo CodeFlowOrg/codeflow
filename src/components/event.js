@@ -47,7 +47,7 @@ setPage(selected)
   return (
     <div className="events ">
       <div className="event__home1">
-        <Customnav color="" height="50px" padding="5vh" />
+        <Customnav color="#01bfd9" height="50px" padding="5vh" />
         {/* <div class="focus">Events</div>
       <div className=" ">
         <div className="row justify-content-center row-custom">

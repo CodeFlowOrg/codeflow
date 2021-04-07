@@ -20,45 +20,39 @@ const Customnav = (props) => {
           <HiOutlineViewList
             className="nav-dynamic-button"
             size={40}
-            onClick={() => setShowLinks(!showLinks)}
           />
           <Link to="/">
             <img src={logo} alt="logo" height={props.height} />
           </Link>
         </div>
-        <div className="navs" id={showLinks ? "hidden" : ""}>
+        <div className="navs" >
           <NavLink activeClassName='nav_active'
             className=" m-2 nav navbar-link-css"
             to="/"
-            onClick={() => setShowLinks(!showLinks)}
           >
             HOME
           </NavLink>
           <NavLink activeClassName='nav_active'
             className=" m-2 nav navbar-link-css"
             to="/about"
-            onClick={() => setShowLinks(!showLinks)}
           >
             ABOUT
           </NavLink>{" "}
           <NavLink activeClassName='nav_active'
             className=" m-2 nav navbar-link-css"
             to="/events"
-            onClick={() => setShowLinks(!showLinks)}
           >
             EVENTS
           </NavLink>
           <NavLink activeClassName='nav_active'
             className=" m-2 nav navbar-link-css"
             to="/team"
-            onClick={() => setShowLinks(!showLinks)}
           >
             TEAM
           </NavLink>{" "}
           <NavLink activeClassName='nav_active'
             className=" m-2 nav navbar-link-css"
             to="/contact"
-            onClick={() => setShowLinks(!showLinks)}
           >
             CONTACT US
           </NavLink>
