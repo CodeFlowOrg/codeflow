@@ -88,7 +88,7 @@ color:black;
 	background: transparent;
 	border: none;
 	padding: 8px;
-	border-bottom: 2px solid #fafafa;
+	border-bottom: 2px solid rgba(124, 122, 122, 0.493);
 	outline: none;
 	font-size: 1rem;
 	font-weight: 400;
