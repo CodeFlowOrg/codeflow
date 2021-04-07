@@ -1,0 +1,221 @@
+.event__home1 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../../assets/Blank\ Background\ 3.png");
+  /* overflow: hidden; */
+}
+.events__home2{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../../assets/Balnk\ Background\ 4.png");
+}
+.events__cardOutline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.events__upcomingCard {
+  background: linear-gradient(to right, #2a84d2ab, #2b304670, #17212c9c);
+  display: flex;
+  padding: 20px;
+  width: 800px;
+  color: #fff;
+  margin-top: 4rem;
+  position: relative;
+}
+.events__upcomingCard img {
+  width: 350px;
+  height: 250px;
+  border-radius: 20px;
+}
+.events__upcomingCardinfo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+}
+.events__upcomingCardinfo h2 {
+  font-size: 1.4rem;
+  margin-top: 25px;
+}
+.events__upcomingCardinfo p {
+  margin-top: 15px;
+  font-size: small;
+  padding-right: 3rem;
+}
+.events__upcomingCard-btn1 {
+  width: fit-content;
+  margin-left: auto;
+  position: absolute;
+  top: -20px;
+  right: 10px;
+  border: none;
+  border-radius: 25px;
+  background-color: #007cc7;
+  color: #fff;
+  font-size: medium;
+  outline: none;
+  padding: 8px 40px;
+}
+.events__upcomingCard-btn2 {
+  width: fit-content;
+  margin-left: auto;
+  margin-top: 25px;
+  border: none;
+  border-radius: 25px;
+  background-color: #ff8736;
+  color: #fff;
+  font-size: medium;
+  outline: none;
+  padding: 2px 20px;
+}
+.events__upcomingCardTiming {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.events__upcomingCardTiming p {
+  margin: 0;
+  font-size: x-small;
+  margin: 4px 15px;
+  font-weight: bold;
+}
+.events__upcomingCardIcon {
+  width: 50px;
+  height: 50px;
+  color: black;
+}
+.event__info{
+  display: flex;
+  align-items: center;
+  width: 800px;
+  margin: auto;
+  margin-top: 3rem;
+  overflow: hidden;
+}
+.event__infoSvg img{
+  width: 350px;
+}
+.event__infoText{
+  text-align: center;
+  margin-top: 40px;
+  color: #fff;
+}
+.event__infoText h3{
+font-size: 1.35rem;
+}
+.event__infoText p{
+font-size: 1.1rem;
+}
+.event__home2Container{
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.events__search{
+  display: flex;
+  align-items: center;
+  height: 40px;
+ background-color: #fff;
+  padding: 15px 10px;
+  width: 500px;
+  margin-top: 4rem;
+}
+.events__searchIcon{
+  color: #12232E;
+}
+.events__search > input {
+  flex: 1;
+  padding: 5px 20px;
+  font-size:1.1rem;
+  border: none;
+}
+.events__search > input:focus {
+outline-width: 0;
+}
+.events__cards{
+  display: flex;
+  /* margin-top: 5rem; */
+  padding-top: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* flex-direction: column; */
+}
+.paginateBtn{
+  list-style: none;
+  display: flex;
+  /* background-color: white; */
+ padding: 10px;
+
+}
+.paginateBtn a{
+ padding: 10px;
+ margin: 8px;
+ border-radius: 7px;
+ border: 1px solid #007cc7;
+ cursor: pointer;
+ color: black;
+ background-color: white;
+ text-decoration: none !important;
+}
+.paginateBtn a:hover{
+ background-color: #007cc7;
+ color: white;
+}
+
+
+/* media queries */
+@media (max-width: 800px) {
+  .events__upcomingCard {
+    width: 700px;
+  }
+  .event__info{
+    width: 760px;
+  }
+}
+@media (max-width: 750px) {
+    /* .events{
+        height: auto;
+    } */
+  .events__upcomingCard {
+    flex-direction: column;
+    width: auto;
+  }
+  .events__upcomingCard img {
+    width: 400px;
+    margin: auto;
+    height: 250px;
+  }
+  .events__upcomingCardTiming {
+    justify-content: flex-start;
+  }
+  .events__upcomingCard-btn1 {
+    padding: 6px 40px;
+    top: -25px;
+  }
+  .event__info{
+ flex-direction: column;
+ width: auto;
+  }
+  
+}
+@media(max-width: 500px){
+    .events__upcomingCard img {
+        width: 300px;
+      }
+      .events__search{
+        width: 350px;
+      }
+}
