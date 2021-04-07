@@ -1,10 +1,40 @@
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
+
+const SamplePrevArrow = (props) => {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{
+        ...style,
+        display: "block",
+        background: "green",
+      }}
+      onClick={onClick}
+    />
+  );
+};
+const SampleNextArrow = (props) => {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: "block", background: "green" }}
+      onClick={onClick}
+    >
+      <FaChevronRight className="icon" />
+    </div>
+  );
+};
+
 export const settings = {
-  dots: true,
   infinite: false,
-  speed: 500,
+  speed: 750,
   slidesToShow: 4,
-  slidesToScroll: 4,
+  slidesToScroll: 1,
   initialSlide: 0,
+  nextArrow: <SampleNextArrow />,
+  prevArrow: <SamplePrevArrow />,
   responsive: [
     {
       breakpoint: 1024,

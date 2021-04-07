@@ -1,14 +1,16 @@
+import { FaQuoteLeft } from "react-icons/fa";
+
 const Testimonial = ({ name, body, email }) => {
   return (
     <article className="tesimonial-item">
-      <div className="left">
-        <img src="" alt="" />
+      <div className="testimonial-left">
+        <FaQuoteLeft className="quote-icon" />
+        <img src="https://via.placeholder.com/150/771796" alt={name} />
       </div>
-      <div className="right">
-        <div className="testimonial-content">{body}</div>
-        <h3>{name}</h3>
-        <p>Hi</p>
-        <p>{email}</p>
+      <div className="testimonial-right">
+        <blockquote className="testimonial-content">{body}</blockquote>
+        <p>{name}</p>
+        <small>{email}</small>
       </div>
     </article>
   );

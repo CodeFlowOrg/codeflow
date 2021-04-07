@@ -1,6 +1,6 @@
-import logo from '../assets/logo.png';
-import { Link } from 'react-router-dom';
-import './styles/footer.css';
+import logo from "../assets/logo.png";
+import { Link } from "react-router-dom";
+import "./styles/footer.css";
 
 const Footer = () => {
   return (
@@ -30,12 +30,7 @@ const Footer = () => {
           <a href="https://www.twitter.com/" target="_blank" rel="noreferrer">
             Twitter
           </a>
-          <a
-            href="https://www.instagram.com/"
-            target="_blank"
-            rel="noreferrer"
-            a
-          >
+          <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
             Instagram
           </a>
         </div>
