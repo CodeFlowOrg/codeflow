@@ -4,6 +4,7 @@ import './styles/footer.css';
 
 const Footer = () => {
   return (
+  <div className="footer-styling">
     <footer>
       <div className="container">
         <div className="footer-logo">
@@ -53,6 +54,7 @@ const Footer = () => {
         </div>
       </div>
     </footer>
+  </div>
   );
 };
 

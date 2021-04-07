@@ -1,7 +1,7 @@
-a {
+.footer-styling a {
   color: #000 !important;
 }
-a:hover {
+.footer-styling a:hover {
   color: #000;
 }
 footer {
