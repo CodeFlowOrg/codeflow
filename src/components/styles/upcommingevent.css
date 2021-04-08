@@ -1,5 +1,9 @@
 #up-coming-events {
-  background-image: linear-gradient(to right,rgb(14 131 231 / 80%),rgba(0,0,0,0));
+  background-image: linear-gradient(
+    to right,
+    rgb(14 131 231 / 80%),
+    rgba(0, 0, 0, 0)
+  );
   width: 88rem;
   margin: 13rem 10rem;
   height: 35rem;
@@ -13,7 +17,7 @@
 }
 #event-thumbnail {
   width: 56.7rem; /*38.7*/
-  height: 30.6rem;  /*23.6*/
+  height: 30.6rem; /*23.6*/
   border-radius: 30px;
   margin-right: 2rem;
   background-color: #ceeeef;
@@ -29,11 +33,26 @@
 #event-thumbnail p {
   color: black;
 }
-#event-details h2{
+#event-details h2 {
   margin-bottom: 5rem;
 }
-#event-details{
+#event-details {
   width: 100%;
   height: 100%;
   padding: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+#event-venue{
+  align-self: flex-end;
+  display: flex;
+  width: 100%;
+}
+#event-venue img {
+  width: 8.375rem;
+}
+#event-venue div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
