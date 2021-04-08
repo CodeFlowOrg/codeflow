@@ -3,12 +3,20 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 const SamplePrevArrow = (props) => {
   const { className, style, onClick } = props;
   return (
-    <div
+    <FaChevronLeft
       className={className}
       style={{
-        ...style,
         display: "block",
-        background: "green",
+        right: "100px",
+        zIndex: "15",
+        height: "80px",
+        width: "80px",
+        opacity: "1",
+        color: "#C2C6C5",
+        position: "absolute",
+        top: "50%",
+        left: "-4.5rem",
+        margin: "0.5rem",
       }}
       onClick={onClick}
     />
@@ -17,44 +25,44 @@ const SamplePrevArrow = (props) => {
 const SampleNextArrow = (props) => {
   const { className, style, onClick } = props;
   return (
-    <div
+    <FaChevronRight
       className={className}
-      style={{ ...style, display: "block", background: "green" }}
+      style={{
+        display: "block",
+        right: "100px",
+        zIndex: "15",
+        height: "80px",
+        width: "80px",
+        opacity: "1",
+        color: "#C2C6C5",
+        position: "absolute",
+        top: "50%",
+        right: "-4.5rem",
+        margin: "0.5rem",
+      }}
       onClick={onClick}
-    >
-      <FaChevronRight className="icon" />
-    </div>
+    />
   );
 };
 
 export const settings = {
   infinite: false,
   speed: 750,
-  slidesToShow: 4,
+  slidesToShow: 3,
   slidesToScroll: 1,
   initialSlide: 0,
   nextArrow: <SampleNextArrow />,
   prevArrow: <SamplePrevArrow />,
   responsive: [
     {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        infinite: true,
-        dots: true,
-      },
-    },
-    {
-      breakpoint: 600,
+      breakpoint: 1300,
       settings: {
         slidesToShow: 2,
-        slidesToScroll: 2,
-        initialSlide: 2,
+        slidesToScroll: 1,
       },
     },
     {
-      breakpoint: 480,
+      breakpoint: 850,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,

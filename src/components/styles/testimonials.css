@@ -10,6 +10,7 @@
 .testimonial-wrapper {
   width: 90vw;
   margin: 2rem auto;
+  position: relative;
 }
 .tesimonial-item {
   background-color: #fff;
@@ -17,7 +18,7 @@
   padding: 1rem;
   display: flex;
   justify-content: center;
-  margin: 1rem;
+  margin: 2rem;
 }
 .testimonial-left {
   display: flex;
@@ -36,4 +37,7 @@
 .testimonial-right p {
   font-weight: 600;
   margin: 0;
+}
+.testimonial-icon {
+  font-size: 5rem;
 }
