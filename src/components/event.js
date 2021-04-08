@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Card, Accordion, Button } from "react-bootstrap";
 import { Alert } from "bootstrap";
 import Customnav from "./customnavbar";
+import UpCommingEvent from "./UpCommingEvent";
 const Events = () => {
   const { docs } = useFirestore("events");
   const [index, setIndex] = useState(0);
@@ -15,10 +16,7 @@ const Events = () => {
     <>
       <div className="events ">
         <Customnav color="#01bfd9" height="50px" padding="5vh" />
-        <div id="up-coming-events">
-          <div id="event-thumbnail"></div>
-          <p>hello upComming eventts here</p>
-        </div>
+        <UpCommingEvent></UpCommingEvent>
         {/* <div class="focus">Events</div> */}
         <div className=" ">
           <div className="row justify-content-center row-custom">

@@ -1,0 +1,22 @@
+#up-coming-events{
+      width: 88rem;
+      margin:  auto;
+      height: 35rem;
+      border: 2px solid white;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 2.875rem;
+    }
+    #event-thumbnail{
+      width: 38.7rem;
+      height: 23.6rem;
+      border-radius: 30px;
+      /* margin: auto 23px; */
+      background-color: grey;
+    }
+    
+    /* Remove this p tag */
+    p{
+      color: white;
+    }
