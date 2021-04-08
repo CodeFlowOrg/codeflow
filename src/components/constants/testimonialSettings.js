@@ -1,7 +1,7 @@
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 const SamplePrevArrow = (props) => {
-  const { className, style, onClick } = props;
+  const { className, onClick } = props;
   return (
     <FaChevronLeft
       className={className}
@@ -23,7 +23,7 @@ const SamplePrevArrow = (props) => {
   );
 };
 const SampleNextArrow = (props) => {
-  const { className, style, onClick } = props;
+  const { className, onClick } = props;
   return (
     <FaChevronRight
       className={className}
@@ -66,6 +66,14 @@ export const settings = {
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
+      },
+    },
+    {
+      breakpoint: 650,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
       },
     },
   ],

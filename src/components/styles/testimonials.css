@@ -41,3 +41,27 @@
 .testimonial-icon {
   font-size: 5rem;
 }
+@media (max-width: 1300px) {
+  .testimonial-wrapper {
+    width: 80vw;
+  }
+}
+@media (max-width: 650px) {
+  .testimonial-wrapper {
+    width: 90vw;
+  }
+}
+
+@media (max-width: 450px) {
+  .testimonial-wrapper {
+    width: 95vw;
+    margin: 0;
+  }
+  .tesimonial-item {
+    flex-direction: column;
+    margin: 0.5rem;
+  }
+  .testimonial-left {
+    flex-direction: row-reverse;
+  }
+}
