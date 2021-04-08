@@ -29,6 +29,11 @@
 #event-thumbnail p {
   color: black;
 }
-/* #event-details h2{
-  margin-bottom: 47rem;
-} */
+#event-details h2{
+  margin-bottom: 5rem;
+}
+#event-details{
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+}
