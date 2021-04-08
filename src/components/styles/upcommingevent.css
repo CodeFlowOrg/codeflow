@@ -1,23 +1,34 @@
 #up-coming-events {
-  background-image: linear-gradient(to right,rgb(14 131 231 / 65%),rgba(0,0,0,0));
+  background-image: linear-gradient(to right,rgb(14 131 231 / 80%),rgba(0,0,0,0));
   width: 88rem;
-  margin: auto;
+  margin: 13rem 10rem;
   height: 35rem;
-  border: 2px solid white;
+  border: 0.5px solid white;
+  /* box-shadow: -2px 0px 3px #0780db; */
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 2.875rem;
+  color: white;
 }
 #event-thumbnail {
-  width: 38.7rem;
-  height: 23.6rem;
+  width: 56.7rem; /*38.7*/
+  height: 30.6rem;  /*23.6*/
   border-radius: 30px;
-  /* margin: auto 23px; */
-  background-color: grey;
+  margin-right: 2rem;
+  background-color: #ceeeef;
+
+  /* To just to align text*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
 }
 
 /* Remove this p tag */
-p {
-  color: white;
+#event-thumbnail p {
+  color: black;
 }
+/* #event-details h2{
+  margin-bottom: 47rem;
+} */
