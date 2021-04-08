@@ -1,39 +1,125 @@
-.Home, .parent {
+.Home, .parent,.home__team {
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  position: fixed;
+  background-size: 100% 100%;
   width: 100%;
   height: 100%;
-  background-position: center;
   background-repeat: no-repeat;
 }
 .Home{
-  background-image: url("../../assets/ex-header-background.jpg");
-  left: 0;
-  top: 0;
+  background-image: url("../../assets/Background\ 1.png");
 }
 .parent {
   display: flex;
   justify-content: space-around;
   align-items: center;
   box-sizing: border-box;
-  padding: 0vh 10vh 30vh 10vh;
+  padding: 0vh 10vh 15vh 10vh;
 }
 .daughter img {
   width: 750px;
 }
+.son__Para{
+  color: #fff;
+}
 .son__Para h3{
-  color: black;
-  font-size: 70px;
+  font-size: 40px !important;
   font-weight:bold;
   font-family: "Arial";
 }
 .son__Para h3 span{
   color: #1cbdd6;
   font-family: "Raleway";
+  font-size: 60px;
 }
-
+.home__about{
+  background-color: #12232E;
+  width: 100%;
+  color: #fff;
+  padding: 2.3rem 4rem;
+}
+.home__aboutInfo{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+.home__aboutInfo h3{
+  font-size: 40px;
+}
+.home__aboutInfo h3 span{
+color: #1cbdd6;
+}
+.home__aboutInfo p{
+  font-size: 20px;
+  width: 1000px;
+  margin: auto;
+  text-align: center;
+  margin-top: 1rem;
+}
+.home__aboutCards{
+  display: flex;
+  justify-content: space-around;
+  width: 1000px;
+  margin:auto;
+  flex-wrap: wrap;
+}
+.home__aboutCard1{
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  padding: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+.home__aboutCard1:hover{
+  transform: translateY(-6px);
+}
+.home__aboutCard1 > img{
+width: 225px;
+height: 200px;
+border-radius: 5px;
+}
+.home__aboutCard1 > h5{
+text-align: center;
+margin-top: 19px;
+margin-bottom: 19px;
+font-size: 1rem;
+text-transform: capitalize;
+font-weight: 600;
+}
+.home__team{
+  background-image: url('../../assets/Blank\ Backround\ 2.png');
+  padding: 3rem 4rem;
+}
+.home__team h3{
+  text-align: center;
+  margin-bottom: 2rem;
+  color: white;
+  font-size: 40px;
+}
+.home__team h3 span{
+color: #1cbdd6;
+}
+.home__teamCards{
+  display: flex;
+  width: 1020px;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.home__teamCardsContributor{
+  margin-top: 4rem;
+  width: 1020px;
+  margin: auto;
+}
+.home__teamCardsContributor h3{
+  text-align: left;
+  font-size: 30px;
+  margin-top: 4rem;
+}
 @media (max-width: 1612px) {
   .son__Para h3{
     font-size: 50px;
@@ -53,6 +139,12 @@
   .son__Para h3{
     font-size: 35px;
   }
+  .home__aboutInfo p,.home__aboutCards,.home__teamCards,.home__teamCardsContributor{
+    width: auto;
+  }
+  .home__teamCardsContributor h3{
+    text-align: center;
+  }
 }
 
 @media (max-width: 920px) {
@@ -63,7 +155,7 @@
   }
   .parent {
     display: block;
-    padding-top: 5vh;
+    padding-top: 5.2vh;
   }
   .son {
     max-width: none !important;
@@ -87,6 +179,9 @@
 @media (max-width: 468px) {
   .daughter img {
     width: 280px;
+  }
+  .home__aboutInfo p{
+    font-size: medium;
   }
 }
 @media (max-width: 430px) {
