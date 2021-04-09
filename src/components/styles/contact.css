@@ -19,14 +19,14 @@
 	right: 0;
 	bottom: 0;
 	width: 100%;
-	 background-image:linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url("../../assets/Blank\ Backround\ 2.png"); ;
-	background-size: 100% 100%;
+	 background-image:linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0))/*, url(../../assets/contactImg.jpg); */ ;
+	background-size: cover;
 	z-index: -1;
 }
 .contact__Packet h1{
 	margin: 0.8rem 0;
 	font-weight: bold;
-	color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
 }
 .contact__container{
 	display: flex;
@@ -82,18 +82,18 @@ form{
 .form__first-group label{
 font-size: 1rem;
 font-weight: 500;
-color:rgb(255, 255, 255);
+color:black;
 }
 .form__first-group input , .form__first-group textarea{
 	background: transparent;
 	border: none;
 	padding: 8px;
-	border-bottom: 2px solid rgba(255, 255, 255, 0.781);
+	border-bottom: 2px solid rgba(124, 122, 122, 0.493);
 	outline: none;
 	font-size: 1rem;
 	font-weight: 400;
 	cursor: pointer;
-	color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
 	transition: all 0.4s ease;
 } 
 .form__first-group input:hover{
