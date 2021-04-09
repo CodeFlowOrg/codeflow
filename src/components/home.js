@@ -19,10 +19,19 @@ function Home() {
           </h3>
           <h3> Learning must go on!</h3>
           <p>Codeflow is an organisatiom whose main motive is to empower student community by organising webinars, hackathons and open source events</p>
+      <Customnav color="" height="50px" padding="5vh" />
+      <div className="parent">
+        <div class="col-5 son">
+          <div className="son__Para">
+            <h3>
+              <span>Codeflow</span> Learning
+            </h3>
+            <h3>must go on</h3>
+          </div>
         </div>
-      </div> 
-      <div class="col-7 daughter"> 
-        <img src={img1} alt="loading"/>
+        <div class="col-7 daughter">
+          <img src={img1} alt="loading" />
+      </div>
       </div>
     </div>
     </div>
