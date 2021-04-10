@@ -8,6 +8,7 @@ function UpCommingEvent() {
         <p>(Thumbnail)</p>
       </div>
       <div id="event-details">
+        <button type="submit">Register Now</button>
         <div>
           <h2>Heading Of The Event</h2>
           <p>

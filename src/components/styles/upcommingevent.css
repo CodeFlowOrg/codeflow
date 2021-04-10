@@ -4,14 +4,14 @@
     rgb(14 131 231 / 80%),
     rgba(0, 0, 0, 0)
   );
-  width: 70%;
+  width: 79%;
   margin: 13rem 10rem;
   height: 35rem;
   border: 0.5px solid white;
   /* box-shadow: -2px 0px 3px #0780db; */
   display: flex;
   flex-direction: row;
-  max-width: 1333.5px;
+  max-width: 1504.94px;
   align-items: center;
   padding: 2.875rem;
   color: white;
@@ -22,7 +22,7 @@
   border-radius: 30px;
   margin-right: 2rem;
   background-color: #ceeeef;
-
+  min-width: 450.359px;
   /* To just to align text*/
   display: flex;
   justify-content: center;
@@ -63,4 +63,18 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+button[type="submit"]{
+  background-color: #007cc7;
+  width: 23%;
+  position: relative;
+  left: 61%;
+  transform: translateY(-90px);
+  border: none;
+  border-radius: 3rem;
+  padding: 1rem;
+  width: 24rem;
+  color: white;
+  font-size: 1.357rem;
 }
