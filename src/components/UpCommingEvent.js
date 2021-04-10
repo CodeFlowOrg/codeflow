@@ -17,6 +17,7 @@ function UpCommingEvent() {
             doloremque officia aut.
           </p>
         </div>
+        <button id="category-button">Category</button>
         <div id="event-venue">
           <div>
           <img src={calendar} alt="calendar-icon" />

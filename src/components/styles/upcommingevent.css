@@ -65,7 +65,7 @@
   justify-content: center;
 }
 
-button[type="submit"]{
+button[type="submit"] {
   background-color: #007cc7;
   width: 23%;
   position: relative;
@@ -77,4 +77,14 @@ button[type="submit"]{
   width: 24rem;
   color: white;
   font-size: 1.357rem;
+}
+#category-button {
+  transform: translateY(27px); 
+  width: 8.375rem;
+  padding: 0.3rem;
+  align-self: flex-end;
+  background-color: orange;
+  border: none;
+  border-radius: 3rem;
+  color: white;
 }
