@@ -41,17 +41,24 @@
   height: 100%;
   padding: 1rem;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
-#event-venue{
-  align-self: flex-end;
+#event-venue {
   display: flex;
-  width: 100%;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+  height: 100%;
 }
 #event-venue img {
   width: 8.375rem;
+  position: relative;
 }
-#event-venue div{
+#event-venue div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#event-venue div div {
   display: flex;
   flex-direction: column;
   justify-content: center;

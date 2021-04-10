@@ -17,10 +17,12 @@ function UpCommingEvent() {
           </p>
         </div>
         <div id="event-venue">
+          <div>
           <img src={calendar} alt="calendar-icon" />
           <div>
-          <h6>Date:27th Jan,2021</h6>
-          <h6>Time:4:00pm-5:00pm</h6>
+            <h6>Date:27th Jan,2021</h6>
+            <h6>Time:4:00pm-5:00pm</h6>
+          </div>
           </div>
         </div>
       </div>
