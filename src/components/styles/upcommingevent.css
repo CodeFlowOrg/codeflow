@@ -4,13 +4,14 @@
     rgb(14 131 231 / 80%),
     rgba(0, 0, 0, 0)
   );
-  width: 88rem;
+  width: 70%;
   margin: 13rem 10rem;
   height: 35rem;
   border: 0.5px solid white;
   /* box-shadow: -2px 0px 3px #0780db; */
   display: flex;
   flex-direction: row;
+  max-width: 1333.5px;
   align-items: center;
   padding: 2.875rem;
   color: white;
