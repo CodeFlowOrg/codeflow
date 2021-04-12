@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import "./styles/customnav.css";
-import logo from "../assets/logo.png";
+import "../styles/customnav.css";
+import logo from "../../assets/logo.png";
 import { Navbar } from "react-bootstrap";
 import { NavLink,Link } from "react-router-dom";
 import { HiOutlineViewList } from "react-icons/hi";

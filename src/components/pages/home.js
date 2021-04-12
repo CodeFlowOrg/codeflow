@@ -1,10 +1,10 @@
-import "./styles/Home.css";
-import img1 from "../assets/img1.png";
-import Customnav from "./customnavbar";
-import team from "../assets/team.jpg";
-import youtube from "../assets/youtube.png";
-import opensource from "../assets/opensource.jpg";
-import TeamCard from './TeamCard'
+import "../styles/Home.css";
+import img1 from "../../assets/img1.png";
+import Customnav from "../layout/customnavbar";
+import team from "../../assets/team.jpg";
+import youtube from "../../assets/youtube.png";
+import opensource from "../../assets/opensource.jpg";
+import TeamCard from '../utilities/TeamCard'
 
 function Home() {
   return (

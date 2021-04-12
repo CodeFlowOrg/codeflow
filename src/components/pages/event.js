@@ -1,26 +1,30 @@
-import useFirestore from "./hooks/useFirestore";
-import "./styles/event.css";
+import "../styles/event.css";
 import { useState } from "react";
-import image from "../assets/EventCalendar.png"
-import Customnav from "./customnavbar";
-import team from "../assets/team.jpg";
+import image from "../../assets/EventCalendar.png"
+import Customnav from "../layout/customnavbar";
+import team from "../../assets/team.jpg";
 import { BsCalendar } from "react-icons/bs";
 import { GoSearch } from "react-icons/go";
-import Card from './Card'
-import jsonData from './cardData.json'
+import Card from '../utilities/Card'
+import jsonData from '../utilities/cardData.json'
 import ReactPaginate from "react-paginate";
+
 const Events = () => {
   const [searchValue, setSearchValue] = useState('')
-  const [card , setCard]= useState(jsonData)
+  const [card]= useState(jsonData)
   const [page, setPage] = useState(0)
   const cardperpage = 5
   const pageVisited = page * cardperpage
+
   const displayCard = card.filter((item)=>{
   if(searchValue===''){
     return item;
   }else if(item.title.toLowerCase().includes(searchValue.toLowerCase()) || item.category.toLowerCase().includes(searchValue.toLowerCase())){
     return item;
   }
+  return(
+    console.log("card success")
+  )
 }).slice(pageVisited, pageVisited + cardperpage).map(item =>{
   
   return(

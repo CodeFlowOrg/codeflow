@@ -1,5 +1,5 @@
-import "./styles/App.css";
-import Customnav from "./customnavbar";
+import "../styles/App.css";
+import Customnav from "../layout/customnavbar";
 
 function Team() {
   return (

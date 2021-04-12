@@ -1,6 +1,6 @@
 import Slider from "react-slick";
-import { useFetch } from "./hooks/useFetch";
-import { settings } from "./constants/testimonialSettings";
+import { useFetch } from "../hooks/useFetch";
+import { settings } from "../constants/testimonialSettings";
 import "./styles/testimonials.css";
 import Testimonial from "./Testimonial";
 import "slick-carousel/slick/slick.css";
