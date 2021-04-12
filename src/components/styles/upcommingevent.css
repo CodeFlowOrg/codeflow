@@ -5,8 +5,7 @@
     rgba(0, 0, 0, 0)
   );
   width: 79%;
-  min-width: 778px; /*450.359*/
-  margin: 13rem 10rem;
+  margin: 13% 10%;
   border: 0.5px solid white;
   /* box-shadow: -2px 0px 3px #0780db; */
   /* display: flex;
@@ -22,7 +21,6 @@
   border-radius: 30px;
   margin-right: 2rem;
   background-color: #ceeeef;
-  min-width: 450.359px;
   /* To just to align text*/
   display: flex;
   justify-content: center;
@@ -88,7 +86,10 @@ button[type="submit"] {
   border-radius: 3rem;
   color: white;
 }
-@media screen and (max-width: 1222px) {
+@media screen and (max-width: 1450px) {
+  #event-thumbnail{
+    margin-right: 0;
+  }
   button[type="submit"] {
     transform: translateY(0px);
     left: 0%;
@@ -98,6 +99,7 @@ button[type="submit"] {
   }
   #category-button {
     box-shadow: 2px 2px 2px black;
+    margin-bottom: 19px;
   }
   #event-details h2 {
     margin-bottom: 1rem;
