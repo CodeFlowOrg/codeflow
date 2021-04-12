@@ -1,6 +1,7 @@
 body{
   background-image: url('../../assets/Blank\ Background\ 3.png');
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .nav,
 .nav:hover {
