@@ -7,9 +7,6 @@
   width: 79%;
   margin: 13% 10%;
   border: 0.5px solid white;
-  /* box-shadow: -2px 0px 3px #0780db; */
-  /* display: flex;
-  flex-direction: row; */
   max-width: 1504.94px;
   align-items: center;
   padding: 2.875rem;
@@ -17,7 +14,7 @@
 }
 #event-thumbnail {
   width: 56.7rem; /*38.7*/
-  height: 30.6rem; /*23.6*/
+  height: 30.6rem;
   border-radius: 30px;
   margin-right: 2rem;
   background-color: #ceeeef;
@@ -50,7 +47,6 @@
 }
 #event-venue img {
   width: 8.375rem;
-  position: relative;
 }
 #event-venue div {
   display: flex;
@@ -103,5 +99,13 @@ button[type="submit"] {
   }
   #event-details h2 {
     margin-bottom: 1rem;
+  }
+}
+@media screen and (max-width:364px){
+  #event-venue div img {
+    display: none;
+  }
+  #event-venue div div{
+    margin-top: 2rem;
   }
 }
