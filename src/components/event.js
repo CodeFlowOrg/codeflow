@@ -17,7 +17,7 @@ const Events = () => {
       <div className="events ">
         <Customnav color="#01bfd9" height="50px" padding="5vh" />
         <UpCommingEvent/>
-        {/* <div class="focus">Events</div> */}
+        <div class="focus">Events</div>
         <div className=" ">
           <div className="row justify-content-center row-custom">
             {docs &&
