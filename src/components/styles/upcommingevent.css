@@ -6,14 +6,13 @@
   );
   width: 79%;
   margin: 13% 10%;
-  border: 0.5px solid white;
   max-width: 1504.94px;
   align-items: center;
   padding: 2.875rem;
   color: white;
 }
 #event-thumbnail {
-  width: 56.7rem; /*38.7*/
+  width: 56.7rem; 
   height: 30.6rem;
   border-radius: 30px;
   margin-right: 2rem;
