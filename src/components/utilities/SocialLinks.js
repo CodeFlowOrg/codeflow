@@ -3,8 +3,7 @@ import styled from 'styled-components'
 
 const Card = () => {
     return (
-        <ContactStyle
-        >
+        <ContactStyle>
             <Hide style={ { color: 'white' } }>
                 Connect on Social Media
             </Hide>
@@ -12,38 +11,63 @@ const Card = () => {
                 <Hide>
                     <Social >
                         <div className='social-btn flex-center' >
-                            <img src="https://img.icons8.com/fluent/240/000000/github.png" /><span> <a href="https://github.com/codeflow201" target="_blank">Codeflow</a></span>
+                            <img src="https://img.icons8.com/fluent/240/000000/github.png" alt="not available"/>
+                            <span> 
+                                <a href="https://github.com/codeflow201" target="_blank" rel="noreferrer">
+                                    Codeflow
+                                </a>
+                            </span>
                         </div>
                     </Social>
                 </Hide>
                 <Hide>
                     <Social>
                         <div className='social-btn flex-center' id="linkedin">
-                            <img src="https://img.icons8.com/fluent/96/000000/linkedin.png" /><span> <a href="https://www.linkedin.com/company/codefloworg/" target="_blank">Codeflow</a></span>
+                            <img src="https://img.icons8.com/fluent/96/000000/linkedin.png" alt="not available"/>
+                            <span> 
+                                <a 
+                                href="https://www.linkedin.com/company/codefloworg/" 
+                                target="_blank"
+                                rel="noreferrer"
+                                >
+                                    Codeflow
+                                </a>
+                            </span>
                         </div>
                     </Social>
                 </Hide>
                 <Hide>
                     <Social>
                         <div className='social-btn flex-center'>
-                            <img src="https://img.icons8.com/doodle/96/000000/youtube-play--v2.png" /><span> <a
+                            <img src="https://img.icons8.com/doodle/96/000000/youtube-play--v2.png" alt="not available"/>
+                            <span> 
+                                <a
                                 href="https://www.youtube.com/channel/UCIsECRBRWOalTC51co-tJWg"
                                 target="_blank"
-                            >Codeflow</a></span>
+                                rel="noreferrer">
+                                    Codeflow
+                                </a>
+                            </span>
                         </div>
                     </Social>
                 </Hide>
                 <Hide>
                     <Social>
                         <div className='social-btn flex-center' >
-                            <img src="https://img.icons8.com/color/240/000000/telegram-app--v1.png" /><span>  <a href="https://t.me/joinchat/FdJhyMumJK5sryCv" target="_blank">Codeflow</a></span>
+                            <img src="https://img.icons8.com/color/240/000000/telegram-app--v1.png" alt="not available"/>
+                            <span>
+                                <a href="https://t.me/joinchat/FdJhyMumJK5sryCv" target="_blank" rel="noreferrer">Codeflow</a>
+                            </span>
                         </div>
                     </Social>
                 </Hide>
                 <Hide>
                     <Social>
                         <div className='social-btn flex-center'>
-                            <img src="https://img.icons8.com/color/48/000000/twitter--v2.png" /><span> <a href="https://twitter.com/codefloworg" target="_blank">Codeflow</a></span>
+                            <img src="https://img.icons8.com/color/48/000000/twitter--v2.png" alt="not available"/>
+                            <span> 
+                                <a href="https://twitter.com/codefloworg" target="_blank" rel="noreferrer">Codeflow</a>
+                            </span>
                         </div>
                     </Social>
                 </Hide>

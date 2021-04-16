@@ -32,7 +32,7 @@ const useStorage = (file, heading, description) => {
         setUrl(url);
       }
     );
-  }, [file]);
+  }, [file, heading, description]);
   return { progress, url, error };
 };
 

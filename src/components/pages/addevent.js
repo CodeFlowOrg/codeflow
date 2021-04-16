@@ -1,9 +1,9 @@
 import { React, useState, useEffect } from "react";
-import "./styles/App.css";
-import Customnav from "./customnavbar";
-
+import "../styles/App.css";
+import Customnav from "../layout/customnavbar";
 import { Form, Alert, Button } from "react-bootstrap";
-import ProBar from "./progressbar";
+import ProBar from "../utilities/progressbar";
+
 const Addevent = () => {
   const [selectedfile, setSelectedFile] = useState(null);
   const [file, setFile] = useState(null);
@@ -106,7 +106,7 @@ const Addevent = () => {
           <div className="col-6">
             <div className="output">
               {selectedfile && (
-                <img src={preview} alt="image" className="col-12" />
+                <img src={preview} alt="not available" className="col-12" />
               )}
               {file && (
                 <ProBar

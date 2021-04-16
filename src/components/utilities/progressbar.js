@@ -1,6 +1,6 @@
 import { React } from "react";
-import "./styles/App.css";
-import useStorage from "./hooks/useStorage";
+import "../styles/App.css";
+import useStorage from "../hooks/useStorage";
 import { ProgressBar } from "react-bootstrap";
 const ProBar = ({
   file,
