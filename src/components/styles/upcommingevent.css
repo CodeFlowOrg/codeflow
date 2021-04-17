@@ -1,0 +1,110 @@
+#up-coming-events {
+  background-image: linear-gradient(
+    to right,
+    rgb(14 131 231 / 80%),
+    rgba(0, 0, 0, 0)
+  );
+  width: 79%;
+  margin: 13% 10%;
+  max-width: 1504.94px;
+  align-items: center;
+  padding: 2.875rem;
+  color: black;
+}
+#event-thumbnail {
+  width: 56.7rem; 
+  height: 30.6rem;
+  border-radius: 30px;
+  margin-right: 2rem;
+  background-color: #ceeeef;
+  /* To just to align text*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+/* Remove this p tag */
+#event-thumbnail p {
+  color: black;
+}
+#event-details h2 {
+  margin-bottom: 5rem;
+}
+#event-details {
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+#event-venue {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+  height: 100%;
+}
+#event-venue img {
+  width: 8.375rem;
+}
+#event-venue div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#event-venue div div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+button[type="submit"] {
+  background-color: #007cc7;
+  width: 23%;
+  position: relative;
+  left: 61%;
+  transform: translateY(-90px);
+  border: none;
+  border-radius: 3rem;
+  padding: 1rem;
+  width: 24rem;
+  color: white;
+  font-size: 1.357rem;
+}
+#category-button {
+  transform: translateY(27px);
+  width: 8.375rem;
+  padding: 0.3rem;
+  align-self: flex-end;
+  background-color: orange;
+  border: none;
+  border-radius: 3rem;
+  color: white;
+}
+@media screen and (max-width: 1450px) {
+  #event-thumbnail{
+    margin-right: 0;
+  }
+  button[type="submit"] {
+    transform: translateY(0px);
+    left: 0%;
+    box-shadow: 2px 2px 8px black;
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+  #category-button {
+    box-shadow: 2px 2px 2px black;
+    margin-bottom: 19px;
+  }
+  #event-details h2 {
+    margin-bottom: 1rem;
+  }
+}
+@media screen and (max-width:364px){
+  #event-venue div img {
+    display: none;
+  }
+  #event-venue div div{
+    margin-top: 2rem;
+  }
+}
