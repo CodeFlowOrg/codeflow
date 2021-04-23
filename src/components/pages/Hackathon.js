@@ -33,36 +33,36 @@ function Hackathon() {
             </div>
           </div>
         </div>
-      <div className="hackathon__cards">
-        <select
-          onChange={handleInput}
-          name="Past"
-          className="hackathon__select"
-        >
-          <option value="past"> Past</option>
-          <option value="ongoing"> Ongoing</option>
-          <option value="upcoming"> upcoming</option>
-        </select>
-        <div className="hackathon__Cards">
-          {Card.filter(item => {
-            if(option === "") {
-              return item;
-            } else if (item.cat === option) {
-              return item;
-            }
-          }).map((item) => {
-            return (
-              <HackCard
-                img={item.img}
-                heading={item.heading}
-                para={item.para}
-                cat={item.cat}
-                category={item.category}
-              />
-            );
-          })}
+        <div className="hackathon__cards">
+          <select
+            onChange={handleInput}
+            name="Past"
+            className="hackathon__select"
+          >
+            <option value="past"> Past</option>
+            <option value="ongoing"> Ongoing</option>
+            <option value="upcoming"> upcoming</option>
+          </select>
+          <div className="hackathon__Cards">
+            {Card.filter((item) => {
+              if (option === "") {
+                return item;
+              } else if (item.cat === option) {
+                return item;
+              }
+            }).map((item) => {
+              return (
+                <HackCard
+                  img={item.img}
+                  heading={item.heading}
+                  para={item.para}
+                  cat={item.cat}
+                  category={item.category}
+                />
+              );
+            })}
+          </div>
         </div>
-      </div>
       </div>
     </>
   );
