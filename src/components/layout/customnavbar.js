@@ -65,10 +65,10 @@ const Customnav = (props) => {
           </NavLink>
           <NavLink activeClassName='nav_active'
             className=" m-2 nav navbar-link-css"
-            to="/about"
+            to="/hackathon"
             onClick={() => setShowLinks(!showLinks)}
           >
-            ABOUT
+            HACKATHON
           </NavLink>{" "}
           <NavLink activeClassName='nav_active'
             className=" m-2 nav navbar-link-css"
