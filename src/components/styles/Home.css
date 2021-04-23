@@ -14,10 +14,10 @@
   justify-content: space-around;
   align-items: center;
   box-sizing: border-box;
-  padding: 0vh 10vh 15vh 10vh;
+  padding: 0vh 5vh 15vh 5vh;
 }
 .daughter img {
-  width: 750px;
+  width: 735px;
 }
 .son__Para{
   color: #fff;
