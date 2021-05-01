@@ -5,6 +5,7 @@ import team from "../../assets/team.jpg";
 import youtube from "../../assets/youtube.png";
 import opensource from "../../assets/opensource.jpg";
 import TeamCard from '../utilities/TeamCard'
+import Testimonials from '../utilities/Testimonials';
 
 function Home() {
   return (
@@ -47,6 +48,7 @@ function Home() {
         </div>
       </div>
     </div>
+    <Testimonials/>
     <div className="home__team">
       <h3><span>Core</span> Team</h3>
       <div className="home__teamCards">
