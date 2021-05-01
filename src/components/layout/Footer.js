@@ -1,9 +1,10 @@
-import logo from '../assets/logo.png';
-import { Link } from 'react-router-dom';
-import './styles/footer.css';
+import logo from "../../assets/logo.png";
+import { Link } from "react-router-dom";
+import "../styles/footer.css";
 
 const Footer = () => {
   return (
+  <div className="footer-styling">
     <footer>
       <div className="container">
         <div className="footer-logo">
@@ -30,12 +31,7 @@ const Footer = () => {
           <a href="https://www.twitter.com/" target="_blank" rel="noreferrer">
             Twitter
           </a>
-          <a
-            href="https://www.instagram.com/"
-            target="_blank"
-            rel="noreferrer"
-            a
-          >
+          <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
             Instagram
           </a>
         </div>
@@ -53,6 +49,7 @@ const Footer = () => {
         </div>
       </div>
     </footer>
+  </div>
   );
 };
 

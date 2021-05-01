@@ -1,7 +1,7 @@
 .event__home1 {
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   width: 100%;
   height: auto;
   background-position: center;
@@ -12,12 +12,12 @@
 .events__home2{
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   width: 100%;
   height: auto;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("../../assets/Balnk\ Background\ 4.png");
+  background-image: url("../../assets/Blank\ Background\ 4.png");
 }
 .events__cardOutline {
   display: flex;
@@ -105,6 +105,7 @@
 }
 .event__infoSvg img{
   width: 350px;
+  height: 350px;
 }
 .event__infoText{
   text-align: center;
@@ -147,23 +148,19 @@ outline-width: 0;
 }
 .events__cards{
   display: flex;
-  /* margin-top: 5rem; */
   padding-top: 2rem;
   flex-wrap: wrap;
   justify-content: center;
-  /* flex-direction: column; */
+  max-width: 1200px;
 }
 .paginateBtn{
   list-style: none;
   display: flex;
-  /* background-color: white; */
  padding: 10px;
-
 }
 .paginateBtn a{
  padding: 10px;
- margin: 8px;
- border-radius: 7px;
+ margin: 2px;
  border: 1px solid #007cc7;
  cursor: pointer;
  color: black;
@@ -217,5 +214,12 @@ outline-width: 0;
       }
       .events__search{
         width: 350px;
+      }
+      .events__search > input{
+        padding: 5px 5px;
+        font-size: 1rem;
+      }
+      .event__home1,.event__home1{
+        background-size: cover;
       }
 }

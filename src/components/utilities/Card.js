@@ -1,5 +1,5 @@
 import React from 'react'
-import './styles/Card.css'
+import '../styles/Card.css'
 import { BsCalendar } from "react-icons/bs";
 
 function Card({image,title,info,category,date,time,btn}) {

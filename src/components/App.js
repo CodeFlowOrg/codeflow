@@ -1,13 +1,13 @@
 import './styles/App.css';
 
-import { HashRouter, Route, Link } from 'react-router-dom';
-import Home from './home';
-import Team from './team';
-import Events from './event';
-import About from './about';
-import Contact from './contact';
-import Addevent from './addevent';
-import Footer from './Footer';
+import { HashRouter, Route } from 'react-router-dom';
+import Home from './pages/home';
+import Team from './pages/team';
+import Events from './pages/event';
+import Hackathon from './pages/Hackathon';
+import Contact from './pages/contact';
+import Addevent from './pages/addevent';
+import Footer from '../components/layout/Footer';
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
         <Route path="/" exact={true} component={Home} />
         <Route path="/team" exact={true} component={Team} />
         <Route path="/events" exact={true} component={Events} />
-        <Route path="/about" exact={true} component={About} />
+        <Route path="/hackathon" exact={true} component={Hackathon} />
         <Route path="/contact" exact={true} component={Contact} />
         <Route path="/Add" exact={true} component={Addevent} />
         <Footer />
