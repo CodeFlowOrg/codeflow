@@ -9,8 +9,10 @@ const Testimonial = ({ name, body, email }) => {
       </div>
       <div className="testimonial-right">
         <blockquote className="testimonial-content">{body}</blockquote>
+        <div>
         <p>{name}</p>
         <small>{email}</small>
+        </div>
       </div>
     </article>
   );
