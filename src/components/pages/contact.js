@@ -66,7 +66,7 @@ const{handleChange, values , handleSubmit , errors} = useForm(validator)
      </div>
      <div className="form__first-group">
        <label>Phone-No </label>
-         <input onChange={handleChange} value={values.phone} name='phone' type="number"/>
+         <input onChange={handleChange} value={values.phone} name='phone' type="tel"/>
          {errors.phone && <p>{errors.phone}</p>}
      </div>
    </div>

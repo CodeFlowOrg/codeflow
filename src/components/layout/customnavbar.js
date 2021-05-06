@@ -40,7 +40,7 @@ const Customnav = (props) => {
     <div>
       {console.error(size)} 
       <Navbar
-        className="justify-content-between"
+        className="justify-content-between navbar"
         style={
           showLinks && size.width <= "685" ? { background: "#01bfd9" } : { background: props.color }
         }
