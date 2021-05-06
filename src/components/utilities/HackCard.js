@@ -1,10 +1,11 @@
 import React from 'react'
 import '../styles/HackCard.css'
-function HackCard({img, heading, para,category,cat}) {
+function HackCard({img, heading, para,category,cat,timing}) {
     return (
         <div className='hackCard'>
             <div className="hackCard__img">
                 <img src={img} alt="thumbnail"/>
+                <span>{timing}</span>
             </div>
             <div className="hackCard__content">
                 <h2>{heading} <span>{category}</span></h2> 

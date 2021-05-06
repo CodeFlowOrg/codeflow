@@ -2,13 +2,16 @@
   max-width: 300px;
   height: 215px;
   position: relative;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255,0.1);
+  box-shadow: 0 25px 45px rgba(0,0,0,0.25);
   margin: 30px 25px;
   padding: 20px 15px;
   display: flex;
   flex-direction: column;
   transition: all 0.5s ease;
   cursor: pointer;
+  color: #fff;
+  backdrop-filter: blur(25px);
 }
 .hackCard:hover {
   height: 350px;
@@ -20,6 +23,17 @@
   top: -40px;
   left: 6px;
   z-index: 1;
+}
+.hackCard__img span{
+  position: absolute;
+  background-color: #12232E;
+  color: #fff;
+  left: -21px;
+  top: 200px;
+  font-size: 11px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  visibility: hidden;
 }
 .hackCard:hover .hackCard__img img{
     transform: scale(1.02);
@@ -37,7 +51,6 @@
   margin-top: -140px;
   padding: 10px 15px;
   text-align: center;
-  color: #111;
   visibility: hidden;
   opacity: 0;
   transition: all 0.5s ease;
@@ -46,6 +59,10 @@
   visibility: visible;
   opacity: 1;
   margin-top: -40px;
+}
+.hackCard:hover .hackCard__img span{
+  top:50px;
+  visibility: visible;
 }
 .hackCard h2 {
   font-size: 1.2rem;
@@ -56,7 +73,6 @@
 .hackCard h2 span {
   font-size: small;
   background-color: #12232e;
-  color: #fff;
   padding: 2px 4px;
 }
 .hackCard p {
@@ -70,17 +86,17 @@
   outline: none;
   color: white;
   margin-top: 10px;
-  background-color: #007cc7;
+  background-color: #12232e;
   padding: 4px 0;
   border-radius: 5px;
   transition: all 0.3s ease;
   text-transform: capitalize;
 }
 .hackCard button:hover {
-  background-color: #2097e0;
+  background-color: #162c3a;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 800px) {
   .hackCard {
     height: 350px;
   }
@@ -89,4 +105,9 @@
     opacity: 1;
     margin-top: -40px;
   }
+  .hackCard__img span{
+    top:50px;
+    visibility: visible;
+  }
+
 }

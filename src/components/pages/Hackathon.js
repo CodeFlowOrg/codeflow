@@ -58,6 +58,7 @@ function Hackathon() {
                   para={item.para}
                   cat={item.cat}
                   category={item.category}
+                  timing={item.timing}
                 />
               );
             })}
