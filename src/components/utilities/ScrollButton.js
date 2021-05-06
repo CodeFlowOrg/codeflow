@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import {FaArrowCircleUp} from 'react-icons/fa';
 import { Button } from './ButtonStyles';
 
-const ScrollToTopButton = () =>{
+const ScrollToTopButton = () => {
 
 const [visible, setVisible] = useState(false)
 
@@ -20,8 +20,6 @@ const scrollToTop = () =>{
 	window.scrollTo({
 	top: 0,
 	behavior: 'smooth'
-	/* you can also use 'auto' behaviour
-		in place of 'smooth' */
 	});
 };
 
