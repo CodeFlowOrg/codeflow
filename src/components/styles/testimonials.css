@@ -8,7 +8,7 @@
   text-align: center;
 }
 .testimonial-wrapper {
-  width: 90vw;
+  width: 89vw;
   margin: 2rem auto;
   position: relative;
 }
@@ -19,6 +19,15 @@
   display: flex;
   justify-content: center;
   margin: 2rem;
+  height: 320px;
+  transition: all 0.3s ease-in;
+}
+.tesimonial-item:hover{
+  background-color: #1CBDD6;
+  color: white;
+}
+.tesimonial-item:hover .quote-icon{
+  color: #fff;
 }
 .testimonial-left {
   display: flex;
@@ -28,11 +37,16 @@
 }
 .testimonial-left .quote-icon {
   font-size: 3rem;
-  color: #cecece;
+  color: #1CBDD6;
 }
 .testimonial-left img {
   border-radius: 50%;
   width: 75px;
+}
+.testimonial-right{
+    display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .testimonial-right p {
   font-weight: 600;
