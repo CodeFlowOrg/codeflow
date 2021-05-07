@@ -23,7 +23,7 @@
   transition: all 0.3s ease-in;
 }
 .tesimonial-item:hover{
-  background-color: #1CBDD6;
+  background-color: #3abfd3;
   color: white;
 }
 .tesimonial-item:hover .quote-icon{
@@ -68,7 +68,6 @@
 
 @media (max-width: 450px) {
   .testimonial-wrapper {
-    width: 95vw;
     margin: 0;
   }
   .tesimonial-item {
