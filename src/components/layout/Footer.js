@@ -19,7 +19,7 @@ const Footer = () => {
         <div className="footer-link-group">
           <Link to="/">Home</Link>
           <Link to="/events">Events</Link>
-          <Link to="/">Hackathons</Link>
+          <Link to="/hackathon">Hackathons</Link>
           <Link to="/">Open Source</Link>
           <Link to="/">Collaborations</Link>
         </div>

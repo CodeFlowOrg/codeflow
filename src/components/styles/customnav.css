@@ -1,13 +1,15 @@
+.navbar.active {
+  background: linear-gradient(98deg, rgb(66, 2, 194)
+  0%, rgb(62, 105, 170) 100%);
+}
+
 .navs .navbar-link-css {
   color: #fff;
   padding-left: 5vh;
   padding-right: 5vh;
 }
 .navbar-link-css:hover{
-  color: #fff;
-}
-.nav_active{
-  color: #fff;
+  color: rgb(165, 131, 131);
 }
 
 .headings-logos-buttons .nav-dynamic-button {

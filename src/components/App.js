@@ -9,6 +9,9 @@ import Contact from './pages/contact';
 import Addevent from './pages/addevent';
 import Footer from '../components/layout/Footer';
 
+import ScrollButton from './utilities/ScrollButton';
+
+
 function App() {
   return (
     <HashRouter basename={process.env.PUBLIC_URL}>
@@ -21,7 +24,9 @@ function App() {
         <Route path="/Add" exact={true} component={Addevent} />
         <Footer />
       </div>
+      <ScrollButton />
     </HashRouter>
+    
   );
 }
 
