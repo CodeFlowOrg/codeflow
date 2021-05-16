@@ -64,7 +64,7 @@ To start contributing, follow the below guidelines:
      $ git checkout -b <branch_name>
 
 **4.** Make your changes
-
+iam adding this text
 **5.** Add and commit your changes
 
      $ git add . && git commit -m "<your_message>"
