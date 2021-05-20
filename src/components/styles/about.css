@@ -1,51 +1,32 @@
-.Collabrated
-  {
-    text-align:center;
-    margin-top: 4rem;
-    margin-bottom: 1rem;
-  }
-  .focus
-  {
-    text-align: center;
-    font-size: 2.5rem;
-    border: 5rem;
-    padding:5rem 2rem 2rem 2rem;
-    font-weight:500;
-  }
-  .about__cards{
-    justify-content: space-around;
-  }
-  .img
-  {
-    flex-shrink: 0;
-    min-width: 50%;
-    min-height: 50%;
-    border: 5px solid rgb(172, 171, 171); 
-  }
-  .img1 {
-    width: 250px;
-    height: 200px;
-    border: 2.5px solid rgb(194, 192, 192); 
-    transition: transform .7s;
-  }
-  .img1:hover
-  {
-    transform: scale(1.02);
-  }
-  .caption {
-    display: block;
-    color:orange;
-    padding:1rem 0rem;
-    font-weight: 500;
-    transition: transform .7s;
-    font-size: 1.5rem;
-  }
-  .caption:hover
-  {
-      transform:scale(1.2);
-  }
-  .green
-  {
-    color:green;
-  }
-  
+.about__page-part1 {
+  background: url("../../assets/Blank\ Background\ 3.png") no-repeat
+    center/cover;
+}
+.about__page-part2 {
+  background: url("../../assets/Blank\ Background\ 4.png") no-repeat
+    center/cover;
+}
+.about__page-text-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  max-width: 1000px;
+  margin: auto;
+  color: #fff;
+  padding: 0vh 5vh 15vh 5vh;
+  text-overflow: clip;
+}
+
+.about__page-text-wrapper article p {
+  font-size: 20px;
+  text-align: center;
+}
+.about__page-title {
+  font-size: 40px;
+  color: #fff;
+}
+
+.about__page-title span {
+  color: #1cbdd6;
+}
