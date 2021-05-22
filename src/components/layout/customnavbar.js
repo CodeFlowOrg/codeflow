@@ -47,6 +47,7 @@ const Customnav = (props) => {
         }>
         <div className="headings-logos-buttons">
           <HiOutlineViewList
+            style={{color:"white"}}
             className="nav-dynamic-button"
             size={40}
             onClick={() => setShowLinks(!showLinks)}

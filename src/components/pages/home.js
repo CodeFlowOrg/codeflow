@@ -13,6 +13,8 @@ function Home() {
     <div className="Home" id="Home">
       <Customnav color="" height="50px" padding="5vh" />
       <div className="parent">
+        <div class="col-1 son">
+        </div>
         <div class="col-5 son">
       <div className="son__Para">
           <h3>
@@ -22,7 +24,7 @@ function Home() {
           <p>Codeflow is an organisatiom whose main motive is to empower student community by organising webinars, hackathons and open source events</p>
         </div>
       </div> 
-        <div class="col-7 daughter">
+        <div class="col-6 daughter">
         <img src={img1} alt="loading"/>
       </div>
     </div>
