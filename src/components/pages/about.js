@@ -1,50 +1,103 @@
 import "../styles/about.css";
-// import "./styles/App.css";
 import Customnav from "../layout/customnavbar";
-// import colla from "../assets/colla.png";
-import team from "../../assets/team.jpg";
-import youtube from "../../assets/youtube.png";
-import opensource from "../../assets/opensource.jpg";
+import img1 from "../../assets/img1.png";
 
 function About() {
   return (
-    <div>
-      <Customnav color="#01bfd9" height="50px" />
-      <div>
-        {" "}
-        <h6 className="Collabrated">Collaborated With</h6>
-      </div>
-      <div className=" justify-content-center">
-        <div className="">
-          {/* <img className="img-fluid" src={colla} alt="Image" /> */}
-        </div>
-      </div>
-
-      <div className="focus">Our Focus Areas</div>
-      <div className="container">
-        <div className="row about__cards">
-          <div className="about__card ">
-            <img className="img1" src={team} alt="not available" />
-
-            <div>
-              <span className="caption orange ">Community Building</span>
+    <>
+      <section class="about__page-part1">
+        <Customnav color="" height="50px" padding="5vh" />
+        <section className="parent">
+          <div class="col-7 daughter">
+            <img src={img1} alt="loading" />
+          </div>
+          <div class="col-5 son">
+            <div className="son__Para">
+              <h3>
+                <span>Codeflow</span>
+              </h3>
+              <h3> known for hackathons!</h3>
+              <p>
+                Codeflow is an organisatiom whose main motive is to empower
+                student community by organising webinars, hackathons and open
+                source events
+              </p>
             </div>
           </div>
-          <div className="about__card ">
-            <img className="img1 img-opensource" src={opensource} alt="not available" />
-            <div>
-              <span className="caption green">Open Source</span>
-            </div>
-          </div>
-          <div className="about__card ">
-            <img className="img1 img-youtube" src={youtube} alt="not available" />
-            <div>
-              <span className="caption orange">Youtube</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+        </section>
+        <section className="about__page-text-wrapper">
+          <article>
+            <h3 className="about__page-title">
+              <span>About</span> Us
+            </h3>
+            <p>
+              Codeflow is an organisatiom whose main motive is to empower
+              student community by organising webinars, hackathons and open
+              source events
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+              tenetur similique magni iusto provident quam!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+              omnis sapiente reiciendis, at eligendi iusto a similique nostrum
+              neque consequuntur blanditiis est quibusdam eum dignissimos
+              laudantium ipsa? Culpa modi rerum, repellendus corporis adipisci
+              corrupti cumque!
+            </p>
+          </article>
+        </section>
+      </section>
+      <section className="about__page-part2">
+        <section className="about__page-text-wrapper">
+          <article>
+            <h3 className="about__page-title">
+              <span>Our</span> Motive
+            </h3>
+            <p>
+              Codeflow is an organisatiom whose main motive is to empower
+              student community by organising webinars, hackathons and open
+              source events
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+              tenetur similique magni iusto provident quam!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+              omnis sapiente reiciendis, at eligendi iusto a similique nostrum
+              neque consequuntur blanditiis est quibusdam eum dignissimos
+              laudantium ipsa? Culpa modi rerum, repellendus corporis adipisci
+              corrupti cumque!
+            </p>
+          </article>
+        </section>
+        <section className="about__page-text-wrapper">
+          <article>
+            <h3 className="about__page-title">
+              <span>Our</span> Methodology
+            </h3>
+            <p>
+              Codeflow is an organisatiom whose main motive is to empower
+              student community by organising webinars, hackathons and open
+              source events
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+              tenetur similique magni iusto provident quam!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+              omnis sapiente reiciendis, at eligendi iusto a similique nostrum
+              neque consequuntur blanditiis est quibusdam eum dignissimos
+              laudantium ipsa? Culpa modi rerum, repellendus corporis adipisci
+              corrupti cumque!
+            </p>
+          </article>
+        </section>
+      </section>
+    </>
   );
 }
 
