@@ -68,37 +68,30 @@ const Customnav = (props) => {
           <NavLink
             activeClassName="nav_active"
             className=" m-2 nav navbar-link-css"
-            to="/about"
+            to="/events"
             onClick={() => setShowLinks(!showLinks)}>
-            ABOUT
+            EVENTS
           </NavLink>{" "}
           <NavLink
             activeClassName="nav_active"
             className=" m-2 nav navbar-link-css"
             to="/hackathon"
             onClick={() => setShowLinks(!showLinks)}>
-            HACKATHON
+            HACKATHONS
           </NavLink>{" "}
           <NavLink
             activeClassName="nav_active"
             className=" m-2 nav navbar-link-css"
-            to="/events"
+            to="/openSource"
             onClick={() => setShowLinks(!showLinks)}>
-            EVENTS
-          </NavLink>
-          <NavLink
-            activeClassName="nav_active"
-            className=" m-2 nav navbar-link-css"
-            to="/team"
-            onClick={() => setShowLinks(!showLinks)}>
-            TEAM
+            OPEN SOURCE
           </NavLink>{" "}
           <NavLink
             activeClassName="nav_active"
             className=" m-2 nav navbar-link-css"
-            to="/contact"
+            to="/collaboration"
             onClick={() => setShowLinks(!showLinks)}>
-            CONTACT US
+            COLLABORATION
           </NavLink>
         </div>
       </Navbar>

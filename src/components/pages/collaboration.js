@@ -11,7 +11,7 @@ import useForm from '../hooks/useForm'
 import validator from '../utilities/validator'
 // import { Card } from "react-bootstrap";
 
-function Contact() {
+function Collaboration() {
 const{handleChange, values , handleSubmit , errors} = useForm(validator)
 
 
@@ -85,4 +85,4 @@ const{handleChange, values , handleSubmit , errors} = useForm(validator)
   );
 }
 
-export default Contact;
+export default Collaboration;
