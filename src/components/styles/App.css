@@ -16,6 +16,14 @@ a:hover {
 }
 .navs {
   display: inline-flex;
+    z-index: 1;
+}
+.fixed {
+   width: 100%;
+    position: fixed;
+    z-index:1;
+    transition: 0.3s ease-in-out;
+    background-color: #01bfd9;
 }
 
 .row-custom{
@@ -51,4 +59,16 @@ a:hover {
 
 .card-banner{
   height: 42vh;
+}
+
+.sc-bdvvaa.cmdZFS {
+    position: fixed;
+    width: 100%;
+    left: 95%;
+    bottom: 80px;
+    height: 20px;
+    font-size: 3rem;
+    z-index: 999;
+    cursor: pointer;
+    color: #1CBDD6;
 }
