@@ -15,8 +15,8 @@ footer h3 {
 }
 footer .container {
   display: flex;
-  justify-content: space-around;
-  max-width: 70%;
+  justify-content: space-evenly;
+  max-width: 85%;
 }
 .footer-link-group {
   display: flex;
@@ -28,6 +28,10 @@ footer .container {
   color: #edfbfb !important;
   border-radius: 5px;
   padding: 0 5px;
+}
+.footer-button-group{
+  display: flex;
+  flex-direction: flex-end;
 }
 .footer-logo {
   display: flex;
