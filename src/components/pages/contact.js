@@ -9,16 +9,18 @@ import {
 } from "react-icons/fa";
 import useForm from '../hooks/useForm'
 import validator from '../utilities/validator'
-// import { Card } from "react-bootstrap";
 
-function Collaboration() {
-const{handleChange, values , handleSubmit , errors} = useForm(validator)
+import React from 'react'
+
+function Contact() {
+    const{handleChange, values , handleSubmit , errors} = useForm(validator)
 
 
   return (
     <div className="contact">
       <Customnav color="#01bfd9" height="50px" padding="5vh" />
       <div className="contact__Packet">
+          <h3>Want to Open Source? Collaborate? or maybe report a bug?</h3>
       <h1>Contact Us</h1>
 <div className="contact__container">
   <div className="contactContainer__left">
@@ -85,4 +87,4 @@ const{handleChange, values , handleSubmit , errors} = useForm(validator)
   );
 }
 
-export default Collaboration;
+export default Contact;
