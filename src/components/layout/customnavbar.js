@@ -36,6 +36,7 @@ const Customnav = (props) => {
   const size = useWindowSize();
 
   return (
+      <div className="fixed">
     <div>
       {console.error(size)}
       <Navbar
@@ -97,6 +98,7 @@ const Customnav = (props) => {
         </div>
       </Navbar>
     </div>
+  </div>
   );
 };
 
