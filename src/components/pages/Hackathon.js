@@ -14,7 +14,7 @@ function Hackathon() {
   return (
     <>
       <div className="hackathon">
-        <Customnav color="" height="50px" padding="5vh" />
+        {/* <Customnav color="" height="50px" padding="5vh" /> */}
         <div className="parent">
           <div class="col-7 daughter">
             <img src={img1} alt="loading" />

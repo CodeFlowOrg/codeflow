@@ -36,69 +36,75 @@ const Customnav = (props) => {
   const size = useWindowSize();
 
   return (
-      <div className="fixed">
-    <div>
-      {console.error(size)}
-      <Navbar
-        className="justify-content-between navbar"
-        style={
-          showLinks && size.width <= "685"
-            ? { background: "#01bfd9" }
-            : { background: props.color }
-        }>
-        <div className="headings-logos-buttons">
-          <HiOutlineViewList
-            style={{color:"white"}}
-            className="nav-dynamic-button"
-            size={40}
-            onClick={() => setShowLinks(!showLinks)}
-          />
-          <Link to="/">
-            <img src={logo} alt="logo" height={props.height} />
-          </Link>
-        </div>
-        <div
-          className="navs"
-          id={showLinks && size.width <= "685" ? "hidden" : ""}>
-          <NavLink
-            activeClassName="nav_active"
-            className=" m-2 nav navbar-link-css"
-            to="/"
-            onClick={() => setShowLinks(!showLinks)}>
-            HOME
-          </NavLink>
-          <NavLink
-            activeClassName="nav_active"
-            className=" m-2 nav navbar-link-css"
-            to="/events"
-            onClick={() => setShowLinks(!showLinks)}>
-            EVENTS
-          </NavLink>{" "}
-          <NavLink
-            activeClassName="nav_active"
-            className=" m-2 nav navbar-link-css"
-            to="/hackathon"
-            onClick={() => setShowLinks(!showLinks)}>
-            HACKATHONS
-          </NavLink>{" "}
-          <NavLink
-            activeClassName="nav_active"
-            className=" m-2 nav navbar-link-css"
-            to="/openSource"
-            onClick={() => setShowLinks(!showLinks)}>
-            OPEN SOURCE
-          </NavLink>{" "}
-          <NavLink
-            activeClassName="nav_active"
-            className=" m-2 nav navbar-link-css"
-            to="/collaboration"
-            onClick={() => setShowLinks(!showLinks)}>
-            COLLABORATION
-          </NavLink>
-        </div>
-      </Navbar>
+    <div className="fixed">
+      <div>
+        <Navbar
+          className="justify-content-between navbar"
+          style={
+            showLinks && size.width <= "685"
+              ? { background: "#01bfd9" }
+              : { background: props.color }
+          }
+        >
+          <div className="headings-logos-buttons">
+            <HiOutlineViewList
+              style={{ color: "white" }}
+              className="nav-dynamic-button"
+              size={40}
+              onClick={() => setShowLinks(!showLinks)}
+            />
+            <Link to="/">
+              <img src={logo} alt="logo" height={props.height} />
+            </Link>
+          </div>
+          <div
+            className="navs"
+            id={showLinks && size.width <= "685" ? "hidden" : ""}
+          >
+            <NavLink
+              activeClassName="nav_active"
+              className=" m-2 nav navbar-link-css"
+              to="/"
+              onClick={() => setShowLinks(!showLinks)}
+            >
+              HOME
+            </NavLink>
+            <NavLink
+              activeClassName="nav_active"
+              className=" m-2 nav navbar-link-css"
+              to="/events"
+              onClick={() => setShowLinks(!showLinks)}
+            >
+              EVENTS
+            </NavLink>{" "}
+            <NavLink
+              activeClassName="nav_active"
+              className=" m-2 nav navbar-link-css"
+              to="/hackathon"
+              onClick={() => setShowLinks(!showLinks)}
+            >
+              HACKATHONS
+            </NavLink>{" "}
+            <NavLink
+              activeClassName="nav_active"
+              className=" m-2 nav navbar-link-css"
+              to="/openSource"
+              onClick={() => setShowLinks(!showLinks)}
+            >
+              OPEN SOURCE
+            </NavLink>{" "}
+            <NavLink
+              activeClassName="nav_active"
+              className=" m-2 nav navbar-link-css"
+              to="/collaboration"
+              onClick={() => setShowLinks(!showLinks)}
+            >
+              COLLABORATION
+            </NavLink>
+          </div>
+        </Navbar>
+      </div>
     </div>
-  </div>
   );
 };
 

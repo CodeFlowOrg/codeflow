@@ -6,15 +6,17 @@ import Events from "./pages/event";
 import Hackathon from "./pages/Hackathon";
 import Collaboration from "./pages/collaboration";
 import Addevent from "./pages/addevent";
-import OpenSource from "./pages/openSource"
+import OpenSource from "./pages/openSource";
 import Footer from "../components/layout/Footer";
 
 import ScrollButton from "./utilities/ScrollButton";
+import Customnav from "./layout/customnavbar";
 
 function App() {
   return (
     <HashRouter basename={process.env.PUBLIC_URL}>
       <div className="App">
+        <Customnav color="" height="50px" padding="5vh" />
         <Route path="/" exact={true} component={Home} />
         <Route path="/events" exact={true} component={Events} />
         <Route path="/openSource" exact={true} component={OpenSource} />
