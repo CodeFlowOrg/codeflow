@@ -1,52 +1,56 @@
 import "../styles/event.css";
 import { useState } from "react";
-import image from "../../assets/EventCalendar.png"
+import image from "../../assets/EventCalendar.png";
 import Customnav from "../layout/customnavbar";
 import team from "../../assets/team.jpg";
 import { BsCalendar } from "react-icons/bs";
 import { GoSearch } from "react-icons/go";
-import Card from '../utilities/Card'
-import jsonData from '../utilities/cardData.json'
+import Card from "../utilities/Card";
+import jsonData from "../utilities/cardData.json";
 import ReactPaginate from "react-paginate";
 
 const Events = () => {
-  const [searchValue, setSearchValue] = useState('')
-  const [card]= useState(jsonData)
-  const [page, setPage] = useState(0)
-  const cardperpage = 5
-  const pageVisited = page * cardperpage
+  const [searchValue, setSearchValue] = useState("");
+  const [card] = useState(jsonData);
+  const [page, setPage] = useState(0);
+  const cardperpage = 5;
+  const pageVisited = page * cardperpage;
 
-  const displayCard = card.filter((item)=>{
-  if(searchValue===''){
-    return item;
-  }else if(item.title.toLowerCase().includes(searchValue.toLowerCase()) || item.category.toLowerCase().includes(searchValue.toLowerCase())){
-    return item;
-  }
-  return(
-    console.log("card success")
-  )
-}).slice(pageVisited, pageVisited + cardperpage).map(item =>{
-  
-  return(
-  <Card
-    image={item.image}
-    title={item.title}
-    category={item.category}
-    info={item.info}
-    date={item.date}
-    time={item.time}
-    btn={item.btn}
-  />)
-})
-const pageCount = Math.ceil(card.length / cardperpage)
-const changePage =({selected}) =>{
-setPage(selected)
-}
+  const displayCard = card
+    .filter((item) => {
+      if (searchValue === "") {
+        return item;
+      } else if (
+        item.title.toLowerCase().includes(searchValue.toLowerCase()) ||
+        item.category.toLowerCase().includes(searchValue.toLowerCase())
+      ) {
+        return item;
+      }
+      return console.log("card success");
+    })
+    .slice(pageVisited, pageVisited + cardperpage)
+    .map((item) => {
+      return (
+        <Card
+          image={item.image}
+          title={item.title}
+          category={item.category}
+          info={item.info}
+          date={item.date}
+          time={item.time}
+          btn={item.btn}
+        />
+      );
+    });
+  const pageCount = Math.ceil(card.length / cardperpage);
+  const changePage = ({ selected }) => {
+    setPage(selected);
+  };
 
   return (
     <div className="events ">
+      {/* <Customnav color="" height="50px" padding="5vh" /> */}
       <div className="event__home1">
-        <Customnav color="" height="50px" padding="5vh" />
         <div className="events__cardOutline">
           <div className="events__upcomingCard">
             <img src={team} alt="thumbnail" />
@@ -75,10 +79,10 @@ setPage(selected)
             </div>
             <div className="event__infoText">
               <h4>
-                Codefolw believes that the best learning curve for
-                any great lesson is achieved by Learning-By-Doing
-                technique.Therefore we organise various events to cultivate
-                basic learning spirit in students
+                Codefolw believes that the best learning curve for any great
+                lesson is achieved by Learning-By-Doing technique.Therefore we
+                organise various events to cultivate basic learning spirit in
+                students
               </h4>
             </div>
           </div>
@@ -87,27 +91,25 @@ setPage(selected)
       <div className="events__home2">
         <div className="event__home2Container">
           <div className="events__search">
-            <GoSearch className='events__searchIcon' />
-          <input type="search" placeholder='Search events by their name and category...' value={searchValue} 
-          onChange={
-           e=> setSearchValue(e.target.value)
-          }/>
+            <GoSearch className="events__searchIcon" />
+            <input
+              type="search"
+              placeholder="Search events by their name and category..."
+              value={searchValue}
+              onChange={(e) => setSearchValue(e.target.value)}
+            />
           </div>
-          <div className="events__cards">
-            {
-              displayCard
-            }
-</div>
-         <ReactPaginate
-         previousLabel={"Previous"}
-         nextLabel={"Next"}
-         pageCount={pageCount}
-         onPageChange={changePage}
-         containerClassName={"paginateBtn"}
-         previousLinkClassName={'previousBtn'}
-         nextLinkClassName={'nextBtn'}
-         activeClassName={'paginateActive'}
-         />
+          <div className="events__cards">{displayCard}</div>
+          <ReactPaginate
+            previousLabel={"Previous"}
+            nextLabel={"Next"}
+            pageCount={pageCount}
+            onPageChange={changePage}
+            containerClassName={"paginateBtn"}
+            previousLinkClassName={"previousBtn"}
+            nextLinkClassName={"nextBtn"}
+            activeClassName={"paginateActive"}
+          />
         </div>
       </div>
     </div>

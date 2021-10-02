@@ -5,8 +5,8 @@
 
 .navs .navbar-link-css {
   color: #fff;
-  padding-left: 5vh;
-  padding-right: 5vh;
+  padding-left: 2vh;
+  padding-right: 2vh;
 }
 .navbar-link-css:hover{
   color: rgb(165, 131, 131);
@@ -19,8 +19,8 @@
 
 @media (max-width: 1308px) {
   .navs .navbar-link-css {
-    padding-left: 4vh;
-    padding-right: 4vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
   }
 }
 
@@ -30,8 +30,8 @@
 
 @media (max-width: 1140px) {
   .navs .navbar-link-css {
-    padding-left: 3vh;
-    padding-right: 3vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
   }
 }
 

@@ -1,4 +1,4 @@
- .nav,
+.nav,
 .nav:hover {
   color: inherit;
   text-decoration: none;
@@ -6,41 +6,48 @@
 }
 a,
 a:hover {
-
   text-decoration: none;
-
 }
 
-.ctr{
- margin: auto;
+.ctr {
+  margin: auto;
 }
 .navs {
   display: inline-flex;
+  z-index: 1;
+}
+.fixed {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  transition: 0.3s ease-in-out;
+  background-color: #01bfd9;
 }
 
-.row-custom{
+.row-custom {
   margin: 0 !important;
 }
-.margin-card{
+.margin-card {
   margin: 1rem;
   margin-bottom: 3rem !important;
 }
-.event-div{
+.event-div {
   min-height: 42vh;
   width: 80% !important;
 }
 
-
-.card img{
+.card img {
   width: 100%;
   height: 60%;
 }
 
-.title-div{
+.title-div {
   min-height: 21% !important;
 }
 
-.card-header{
+.card-header {
   margin-bottom: 0 !important;
   height: 19%;
   border-bottom: none !important;
@@ -49,6 +56,18 @@ a:hover {
   padding-left: 1 rem;
 }
 
-.card-banner{
+.card-banner {
   height: 42vh;
+}
+
+.sc-bdvvaa.cmdZFS {
+  position: fixed;
+  width: 100%;
+  left: 95%;
+  bottom: 80px;
+  height: 20px;
+  font-size: 3rem;
+  z-index: 999;
+  cursor: pointer;
+  color: #1cbdd6;
 }
