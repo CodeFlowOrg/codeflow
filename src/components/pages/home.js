@@ -21,7 +21,7 @@ function Home() {
             <span>Codeflow</span>
           </h3>
           <h3> Learning must go on!</h3>
-          <p>Codeflow is an organisatiom whose main motive is to empower student community by organising webinars, hackathons and open source events</p>
+          <p>An initiative to contribute to the Student community by providing opportunities, resources, and awareness about the possibilities in the field of software to students & professionals.</p>
         </div>
       </div> 
         <div class="col-6 daughter">
