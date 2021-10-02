@@ -1,6 +1,6 @@
 import "../styles/Home.css";
 import img1 from "../../assets/img1.png";
-import Customnav from "../layout/customnavbar";
+// import Customnav from "../layout/customnavbar";
 import team from "../../assets/team.jpg";
 import youtube from "../../assets/youtube.png";
 import opensource from "../../assets/opensource.jpg";
@@ -36,15 +36,23 @@ function Home() {
           <h3>
             <span>About</span> Us
           </h3>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi,
-            neque sed! Quas quisquam laudantium aspernatur laboriosam sint, quod
-            blanditiis? Assumenda veritatis consequuntur obcaecati blanditiis?
-            Earum cum tenetur dolorem. Possimus, similique.Animi, neque sed!
-            Quas quisquam laudantium aspernatur laboriosam sint, quod
-            blanditiis? Assumenda veritatis consequuntur obcaecati blanditiis?
-            Earum cum tenetur dolorem. Possimus, similique.
-          </p>
+          <h3> Learning must go on!</h3>
+          <p>An initiative to contribute to the Student community by providing opportunities, resources, and awareness about the possibilities in the field of software to students & professionals.</p>
+        </div>
+      </div> 
+        <div class="col-6 daughter">
+        <img src={img1} alt="loading"/>
+      </div>
+  
+ 
+      <div className="home__aboutCards">
+        <div className="home__aboutCard1">
+          <img src={opensource} alt="thumbnail" />
+          <h5>OpenSource</h5>
+        </div>
+        <div className="home__aboutCard1">
+          <img src={team} alt="thumbnail" />
+          <h5>Community building</h5>
         </div>
         <div className="home__aboutCards">
           <div className="home__aboutCard1">
