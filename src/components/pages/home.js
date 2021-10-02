@@ -82,7 +82,7 @@ function Home() {
         </div>
         <div className="home__teamCardsContributor">
           <h3>
-            <span>Top</span> Contributor
+            <span>Top</span> Contributors
           </h3>
           <div className="home__teamCards">
             <TeamCard image={youtube} name="Abra ka dabra" />
