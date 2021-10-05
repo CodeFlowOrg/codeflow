@@ -71,3 +71,18 @@ a:hover {
   cursor: pointer;
   color: #1cbdd6;
 }
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background:  linear-gradient(0deg, rgba(255, 0, 0, 1) 0%, rgba(7, 0, 211, 1) 100%);
+}
+
+::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 8px;
+  
+  box-shadow: 0px 0px 0px 100000vh #cc0404;
+}
