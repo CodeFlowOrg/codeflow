@@ -4,6 +4,11 @@ import logo from "../../assets/logo.png";
 import { Navbar } from "react-bootstrap";
 import { NavLink, Link } from "react-router-dom";
 import { HiOutlineViewList } from "react-icons/hi";
+import HomeIcon from "@mui/icons-material/Home";
+import GroupAddIcon from "@mui/icons-material/GroupAdd";
+import CodeIcon from "@mui/icons-material/Code";
+import EventIcon from "@mui/icons-material/Event";
+import LaptopIcon from "@mui/icons-material/Laptop";
 
 const Customnav = (props) => {
   const [showLinks, setShowLinks] = useState(false);
@@ -67,6 +72,7 @@ const Customnav = (props) => {
               to="/"
               onClick={() => setShowLinks(!showLinks)}
             >
+              <HomeIcon />
               HOME
             </NavLink>
             <NavLink
@@ -75,6 +81,7 @@ const Customnav = (props) => {
               to="/events"
               onClick={() => setShowLinks(!showLinks)}
             >
+              <EventIcon />
               EVENTS
             </NavLink>{" "}
             <NavLink
@@ -83,6 +90,7 @@ const Customnav = (props) => {
               to="/hackathon"
               onClick={() => setShowLinks(!showLinks)}
             >
+              <CodeIcon />
               HACKATHONS
             </NavLink>{" "}
             <NavLink
@@ -91,6 +99,7 @@ const Customnav = (props) => {
               to="/openSource"
               onClick={() => setShowLinks(!showLinks)}
             >
+              <LaptopIcon />
               OPEN SOURCE
             </NavLink>{" "}
             <NavLink
@@ -99,6 +108,7 @@ const Customnav = (props) => {
               to="/collaboration"
               onClick={() => setShowLinks(!showLinks)}
             >
+              <GroupAddIcon />
               COLLABORATION
             </NavLink>
           </div>
