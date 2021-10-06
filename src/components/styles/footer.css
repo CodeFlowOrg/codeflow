@@ -24,8 +24,6 @@ footer .container {
   align-items: flex-start;
 }
 .footer-link-group a:last-child {
-  background-color: var(--dark);
-  color: #edfbfb !important;
   border-radius: 5px;
   padding: 0 5px;
 }
