@@ -78,6 +78,7 @@ footer .container {
 
 .footer-link-group a:hover {
   color: #000;
+  text-decoration: none;
 }
 
 .footer-link-group a::before {
