@@ -86,7 +86,7 @@ footer .container {
   position: absolute;
   display: block;
   width: 100%;
-  height: 2px;
+  height: 1.75px;
   bottom: 0;
   left: 0;
   background-color: #000;
@@ -96,4 +96,13 @@ footer .container {
 
 .footer-link-group a:hover::before {
   transform: scaleX(1);
+}
+
+.social-media-links > h3,
+.other-links > h3 {
+  background-color: var(--dark);
+  color: #edfbfb !important;
+  border-radius: 5px;
+  padding: 0 5px;
+  text-decoration: none;
 }
