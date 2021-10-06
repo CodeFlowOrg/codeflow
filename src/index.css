@@ -1,0 +1,9 @@
+#loading{
+    position:fixed;
+    width:100%;
+    height:100vh;
+    background: #fff 
+    url('https://wpdaddy.com/wp-content/uploads/2019/05/atom-animation-loader.gif')
+    no-repeat center;
+    z-index : 99999;
+}
