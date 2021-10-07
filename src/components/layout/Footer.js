@@ -43,7 +43,7 @@ const Footer = () => {
           </div>
           <div className="footer-link-group other-links">
             <h3>Other Links</h3>
-            <a href="https://www.github.com/" target="_blank" rel="noreferrer">
+            <a href="https://www.github.com/codeflow201" target="_blank" rel="noreferrer">
               Github
             </a>
             <a
@@ -52,7 +52,7 @@ const Footer = () => {
               rel="noreferrer">
               LinkedIn
             </a>
-            <a href="mailto:" target="_blank" rel="noreferrer">
+            <a href="mailto:codefloworg@gmail.com" target="_blank" rel="noreferrer">
               Email Us
             </a>
           </div>

@@ -26,6 +26,7 @@ footer .container {
 .footer-link-group a:last-child {
   border-radius: 5px;
   padding: 0 5px;
+  border : 1px solid black;
 }
 .footer-logo {
   display: flex;
