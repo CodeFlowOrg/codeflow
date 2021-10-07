@@ -86,14 +86,5 @@
   .justify-content-between #hidden .navbar-link-css {
     margin: 10px !important;
   }
-  .navbar-link-css:hover{
-    color: rgb(165, 131, 131);
-    background: #12232e;
-    content: '.';
-  }
-  .navbar-link-css,
-  .navbar-link-css:after,
-  .navbar-link-css:before {
-    transition: all .5s;
-  }
+  
 }
