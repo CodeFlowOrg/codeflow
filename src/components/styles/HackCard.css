@@ -10,7 +10,7 @@
   flex-direction: column;
   transition: all 0.5s ease;
   cursor: pointer;
-  color: #fff;
+  color: #663F3F;
   backdrop-filter: blur(25px);
 }
 .hackCard:hover {
@@ -73,6 +73,7 @@
   font-size: small;
   background-color: #12232e;
   padding: 2px 4px;
+  color:white;
 }
 .hackCard p {
   font-size: 0.9rem;
