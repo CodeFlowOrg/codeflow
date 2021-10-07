@@ -67,7 +67,7 @@ const Customnav = (props) => {
               to="/"
               onClick={() => setShowLinks(!showLinks)}
             >
-              HOME
+            HOME
             </NavLink>
             <NavLink
               activeClassName="nav_active"
