@@ -11,7 +11,6 @@ function Home() {
   return (
     <>
       <div className="Home" id="Home">
-        {/* <Customnav color="" height="50px" padding="5vh" /> */}
         <div className="parent">
           <div class="col-5 son">
             <div className="son__Para">
@@ -36,25 +35,10 @@ function Home() {
           <h3>
             <span>About</span> Us
           </h3>
-          <h3> Learning must go on!</h3>
           <p>An initiative to contribute to the Student community by providing opportunities, resources, and awareness about the possibilities in the field of software to students & professionals.</p>
         </div>
-      </div> 
-        <div class="col-6 daughter">
-        <img src={img1} alt="loading"/>
-      </div>
-  
- 
-      <div className="home__aboutCards">
-        <div className="home__aboutCard1">
-          <img src={opensource} alt="thumbnail" />
-          <h5>OpenSource</h5>
-        </div>
-        <div className="home__aboutCard1">
-          <img src={team} alt="thumbnail" />
-          <h5>Community building</h5>
-        </div>
         <div className="home__aboutCards">
+       <div className="home__aboutCards">
           <div className="home__aboutCard1">
             <img src={opensource} alt="thumbnail" />
             <h5>OpenSource</h5>
@@ -69,6 +53,10 @@ function Home() {
           </div>
         </div>
       </div>
+      </div> 
+     
+  
+    
       <Testimonials />
       <div className="home__team">
         <h3>
