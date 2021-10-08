@@ -75,19 +75,19 @@
 }
 
 .id {
-    margin: 10px 80px 10px 20px;
+    margin: 10px 80px 10px 12px;
 }
 
 .id1 {
-    margin: 10px 10px 10px -60px;
-}
-
-.id2 {
-    margin: 10px 10px 10px 10px;
+    margin: 10px -30px 10px -69px;
 }
 
 .id3 {
-    margin: 10px 10px 10px 10px;
+    margin: -90px 10px -91px 42px;
+}
+
+.id2 {
+    margin: 5px -100px 5px 5px;
 }
 
 form {

@@ -1,17 +1,9 @@
 import "../styles/contact.css";
 import Customnav from "../layout/customnavbar";
-import head from "../../assets/head.svg";
+import logo from "../../assets/logo.png";
 import { SocialIcon } from 'react-social-icons';
 
-import {
-    FaLinkedin,
-    FaGithubSquare,
-    FaTwitterSquare,
-    FaYoutube,
-    FaTelegram,
-} from "react-icons/fa";
-import useForm from "../hooks/useForm";
-import validator from "../utilities/validator";
+
 // import { Card } from "react-bootstrap";
 
 function Collaboration() {
@@ -29,8 +21,8 @@ function Collaboration() {
         h3 > Any queries, feel free to Contact Us...! < /h3>{" "} <
         p > { " " } <
         img height = { 250 }
-        src = { head }
-        alt = "header" / > { " " } <
+        src = { logo }
+        alt = "logo" / > { " " } <
         /p>{" "} < /
         div > { " " } <
         div className = "contactContainer__leftIcons" >
@@ -46,15 +38,16 @@ function Collaboration() {
         url = "https://www.linkedin.com/company/codefloworg/"
         fgColor = "#FFFFFF" / >
         <
-        SocialIcon className = "id2"
-        url = "https://github.com/codeflow201"
-        fgColor = "#FFFFFF" /
-        >
-        <
         SocialIcon className = "id3"
         url = "https://t.me/joinchat/FdJhyMumJK5sryCv"
         fgColor = "#FFFFFF"
         network = "telegram" /
+        >
+        <
+        SocialIcon className = "id2"
+        url = "https://github.com/codeflow201"
+        fgColor = "#FFFFFF"
+        network = "github" /
         >
         <
         /div> { " " } < /
