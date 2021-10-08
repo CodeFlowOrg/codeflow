@@ -6,7 +6,7 @@
   height: auto;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("../../assets/Blank\ Background\ 3.png");
+  background-image: url("../../assets/Blank\ Backround\ 4.png");
   /* overflow: hidden; */
 }
 .events__home2{
@@ -17,7 +17,8 @@
   height: auto;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("../../assets/Blank\ Background\ 4.png");
+  background-color: #4A403A;
+  /* background-image: url("../../assets/Blank\ Backgrounds\ 1.png"); */
 }
 .events__cardOutline {
   display: flex;
@@ -26,7 +27,7 @@
   flex-direction: column;
 }
 .events__upcomingCard {
-  background: linear-gradient(to right, #2a84d2ab, #2b304670, #17212c9c);
+  background: linear-gradient(to right, #663F3F, #2b304670, #17212c9c);
   display: flex;
   padding: 20px;
   width: 800px;
@@ -61,7 +62,7 @@
   right: 10px;
   border: none;
   border-radius: 25px;
-  background-color: #007cc7;
+  background-color: #A45D5D;
   color: #fff;
   font-size: medium;
   outline: none;
@@ -98,7 +99,7 @@
 .event__info{
   display: flex;
   align-items: center;
-  width: 800px;
+  width : 880px;
   margin: auto;
   margin-top: 3rem;
   overflow: hidden;
@@ -109,8 +110,9 @@
 }
 .event__infoText{
   text-align: center;
-  margin-top: 40px;
-  color: #fff;
+  /* margin-top: 10px; */
+  color: #000;
+
 }
 .event__infoText h3{
 font-size: 1.35rem;
@@ -161,14 +163,14 @@ outline-width: 0;
 .paginateBtn a{
  padding: 10px;
  margin: 2px;
- border: 1px solid #007cc7;
+ border: 1px solid #FFC069;
  cursor: pointer;
  color: black;
  background-color: white;
  text-decoration: none !important;
 }
 .paginateBtn a:hover{
- background-color: #007cc7;
+ background-color: #FFC069;
  color: white;
 }
 

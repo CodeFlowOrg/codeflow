@@ -1,6 +1,6 @@
 # Codeflow
 
-Official website of Codeflow on React and Firebase
+Official website of Codeflow on React and Firebase.
 
 
 ## Prerequisites for Environment Setup

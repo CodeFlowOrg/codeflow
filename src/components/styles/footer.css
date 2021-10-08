@@ -24,10 +24,9 @@ footer .container {
   align-items: flex-start;
 }
 .footer-link-group a:last-child {
-  background-color: var(--dark);
-  color: #edfbfb !important;
   border-radius: 5px;
   padding: 0 5px;
+  border : 1px solid black;
 }
 .footer-logo {
   display: flex;
@@ -70,4 +69,41 @@ footer .container {
     margin: 0.5rem auto;
     align-items: center;
   }
+}
+
+.footer-link-group a {
+  position: relative;
+  color: #000;
+  text-decoration: none;
+}
+
+.footer-link-group a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.footer-link-group a::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 1.75px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.footer-link-group a:hover::before {
+  transform: scaleX(1);
+}
+
+.social-media-links > h3,
+.other-links > h3 {
+  background-color: var(--dark);
+  color: #edfbfb !important;
+  border-radius: 5px;
+  padding: 0 5px;
+  text-decoration: none;
 }

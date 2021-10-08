@@ -12,5 +12,5 @@ height: 20px;
 font-size: 3rem;
 z-index: 999;
 cursor: pointer;
-color: #1CBDD6;
+color: #4A403A;
 `

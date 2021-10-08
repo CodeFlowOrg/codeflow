@@ -7,7 +7,8 @@
     height: 100%;
     overflow: hidden;
     background-repeat: no-repeat;
-  background-image: url("../../assets/Blank\ Backround\ 2.png");
+  /* background-image: url("../../assets/Blank\ Backround\ 5.png"); */
+
 
 }
 .hackathon__cards{
@@ -28,7 +29,7 @@
     cursor: pointer;
 }
 .hackathon__select option{
-    color: #007CC7;
+    color: #663F3F;
     background-color: #12232E;
     font-weight: 600;
 }

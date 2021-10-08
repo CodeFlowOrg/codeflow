@@ -7,7 +7,7 @@
   background-repeat: no-repeat;
 }
 .Home{
-  background-image: url("../../assets/Background\ 1.png");
+  background-image: url("../../assets/Blank\ Backgrounds\ 1.png");
 }
 .parent {
   display: flex;
@@ -20,7 +20,8 @@
   width: 735px;
 }
 .son__Para{
-  color: #fff;
+  color: #663F3F;
+  ;
 }
 .son__Para h3{
   font-size: 40px !important;
@@ -28,12 +29,12 @@
   font-family: "Arial";
 }
 .son__Para h3 span{
-  color: #1cbdd6;
+  color: #A45D5D;
   font-family: "Raleway";
-  font-size: 60px;
+  font-size: 80px;
 }
 .home__about{
-  background-color: #12232E;
+  background-color: #FFC069;
   width: 100%;
   color: #fff;
   padding: 2.3rem 4rem;
@@ -49,7 +50,7 @@
   font-size: 40px;
 }
 .home__aboutInfo h3 span{
-color: #1cbdd6;
+color: #4A403A;
 }
 .home__aboutInfo p{
   font-size: 20px;
@@ -91,7 +92,9 @@ text-transform: capitalize;
 font-weight: 600;
 }
 .home__team{
-  background-image: url('../../assets/Blank\ Backround\ 2.png');
+  background-image: url('../../assets/Blank\ Backround\ 5.png');
+  
+   background-color: #663F3F;
   padding: 3rem 4rem;
 }
 .home__team h3{
@@ -101,7 +104,7 @@ font-weight: 600;
   font-size: 40px;
 }
 .home__team h3 span{
-color: #1cbdd6;
+color: #FFC069;
 }
 .home__teamCards{
   display: flex;

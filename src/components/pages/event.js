@@ -49,7 +49,6 @@ const Events = () => {
 
   return (
     <div className="events ">
-      {/* <Customnav color="" height="50px" padding="5vh" /> */}
       <div className="event__home1">
         <div className="events__cardOutline">
           <div className="events__upcomingCard">
@@ -79,8 +78,9 @@ const Events = () => {
             </div>
             <div className="event__infoText">
               <h4>
-                Codefolw believes that the best learning curve for any great
-                lesson is achieved by Learning-By-Doing technique.Therefore we
+                Codeflow believes that the best learning curve for any great
+                lesson is achieved by <br/>Learning-By-Doing technique.<br/>
+                Therefore we
                 organise various events to cultivate basic learning spirit in
                 students
               </h4>

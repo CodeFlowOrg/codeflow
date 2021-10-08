@@ -1,10 +1,10 @@
 #testimonials {
-  background-color: #12232d;
+  background-color: #fff;
   padding: 1rem;
 }
 
 #testimonials h1 {
-  color: #edfbfb;
+  color: #FFC069;
   text-align: center;
 }
 .testimonial-wrapper {
@@ -13,7 +13,7 @@
   position: relative;
 }
 .tesimonial-item {
-  background-color: #fff;
+  background-color: rgb(221, 217, 217);
   border-radius: 20px;
   padding: 1rem;
   display: flex;
@@ -23,7 +23,7 @@
   transition: all 0.3s ease-in;
 }
 .tesimonial-item:hover{
-  background-color: #3abfd3;
+  background-color: #4A403A;
   color: white;
 }
 .tesimonial-item:hover .quote-icon{
@@ -37,7 +37,7 @@
 }
 .testimonial-left .quote-icon {
   font-size: 3rem;
-  color: #1CBDD6;
+  color: #4A403A;
 }
 .testimonial-left img {
   border-radius: 50%;

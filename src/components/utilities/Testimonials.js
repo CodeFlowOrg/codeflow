@@ -15,7 +15,7 @@ const Testimonials = () => {
 
   return (
     <section id="testimonials">
-      <h1> <span style={{color:'#1CBDD6'}}>Our</span> Testimonials</h1>
+      <h1> <span style={{color:'#4A403A'}}>Our</span> Testimonials</h1>
       <div className="testimonial-wrapper">
         {isLoading ? (
           <h1>Loading...</h1>

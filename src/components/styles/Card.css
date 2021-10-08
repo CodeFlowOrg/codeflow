@@ -58,11 +58,11 @@
   outline: none;
   color: white;
   margin-top: 10px;
-  background-color: #007cc7;
+  background-color: #FFC069;
   padding: 4px 0;
   border-radius: 30px;
   transition: all 0.3s ease;
 }
 .card__btn:hover {
-  background-color:#2097e0 ;
+  background-color:#FFC069 ;
 }
