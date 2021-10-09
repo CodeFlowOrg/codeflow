@@ -11,6 +11,7 @@
     width: 150px;
     cursor: pointer;
     height: 200px;
+    word-break: break-word;
 }
 .teamCard:hover img{
 transform: scale(1.05);
