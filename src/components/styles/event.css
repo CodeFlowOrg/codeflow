@@ -107,12 +107,11 @@
 .event__infoSvg img{
   width: 350px;
   height: 350px;
+  margin-bottom: 10px;
 }
 .event__infoText{
   text-align: center;
-  /* margin-top: 10px; */
   color: #000;
-
 }
 .event__infoText h3{
 font-size: 1.35rem;

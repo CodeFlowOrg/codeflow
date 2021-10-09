@@ -29,7 +29,7 @@
 .contact__Packet h1 {
     margin: 0.8rem 0;
     font-weight: bold;
-    color: rgb(0, 0, 0);
+    color: #663F3F;
 }
 
 .contact__container {
@@ -38,7 +38,7 @@
     border-radius: 15px;
     height: auto;
     backdrop-filter: blur(7px);
-    background-color: #000;
+    background-color: #4A403A;
     border: 1px solid rgba(226, 225, 225, 0.568);
     box-shadow: -10px 9px 12px 0px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: -10px 9px 12px 0px rgba(0, 0, 0, 0.75);
@@ -46,8 +46,8 @@
 }
 
 .contactContainer__left {
-    color: #fafafa;
-    background-color: #000;
+    color: #4A403A;
+    background-color: #EFEFEF;
     flex: 0 1 40%;
     padding: 30px;
     border-radius: 10px;
@@ -99,7 +99,7 @@ form {
     display: flex;
     flex: 0 0 100%;
     width: 100%;
-    background-color: #000;
+    background-color: #4A403A;
 }
 
 .form__first-group {
@@ -131,19 +131,19 @@ form {
 }
 
 .form__first-group input:hover {
-    border-bottom: 2px solid #bb86fc;
+    border-bottom: 2px solid #FFC069;
 }
 
 .form__first-group textarea:hover {
-    border-bottom: 2px solid #bb86fc;
+    border-bottom: 2px solid #FFC069;
 }
 
 .form__first-group input:focus {
-    border-bottom: 2px solid #bb86fc;
+    border-bottom: 2px solid #FFC069;
 }
 
 .form__first-group textarea:focus {
-    border-bottom: 2px solid #bb86fc;
+    border-bottom: 2px solid #FFC069;
 }
 
 .form__first-group p {
@@ -152,7 +152,7 @@ form {
 }
 
 .form__btn {
-    background-color: #bb86fc;
+    background-color: #FFC069;
     color: white;
     padding: 6px 30px;
     font-size: 1rem;

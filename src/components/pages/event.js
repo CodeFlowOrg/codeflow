@@ -1,7 +1,6 @@
 import "../styles/event.css";
 import { useState } from "react";
-import image from "../../assets/EventCalendar.png";
-import Customnav from "../layout/customnavbar";
+import image from "../../assets/calender.png";
 import team from "../../assets/team.jpg";
 import { BsCalendar } from "react-icons/bs";
 import { GoSearch } from "react-icons/go";

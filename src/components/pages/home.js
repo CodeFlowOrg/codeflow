@@ -78,17 +78,11 @@ function Home() {
         </h3>
         <div className="home__teamCards">
           <TeamCard image={"https://i.ibb.co/BqR6rTK/image.jpg"} name="Hargun Kaur" position="Founder" />
-          <TeamCard image={youtube} name="Abra ka dabra" position="(Unknown)" />
-          <TeamCard image={youtube} name="Abra ka dabra" position="(Unknown)" />
-          <TeamCard image={youtube} name="Abra ka dabra" position="(Unknown)" />
-          <TeamCard image={youtube} name="Abra ka dabra" position="(Unknown)" />
-          <TeamCard image={youtube} name="Abra ka dabra" position="(Unknown)" />
-          <TeamCard image={youtube} name="Abra ka dabra" position="(Unknown)" />
-          <TeamCard image={youtube} name="Abra ka dabra" position="(Unknown)" />
-          <TeamCard image={youtube} name="Abra ka dabra" position="(Unknown)" />
-          <TeamCard image={youtube} name="Abra ka dabra" position="(Unknown)" />
-          <TeamCard image={youtube} name="Abra ka dabra" position="(Unknown)" />
-          <TeamCard image={youtube} name="Abra ka dabra" position="(Unknown)" />
+          <TeamCard image={"https://i.ibb.co/0GsNn01/harsh.jpg"} name="Harsh Chhabra" position="Founder" />
+          <TeamCard image={"https://i.ibb.co/bJ8HHND/paras.jpg"} name="Paras Bansal" position="Web-dev Lead" />
+          <TeamCard image={youtube} name="Yash Nitani" position="Opensource Lead" />
+          <TeamCard image={"https://i.ibb.co/jz1C1V7/Whats-App-Image-2021-10-09-at-11-39-08-PM.jpg"} name="Priyanshi Sinha" position="Program Management Lead" />
+
         </div>
         <div className="home__teamCardsContributor">
           <h3>

@@ -8,7 +8,6 @@ import Collaboration from "./pages/collaboration";
 import Addevent from "./pages/addevent";
 import OpenSource from "./pages/openSource";
 import Footer from "../components/layout/Footer";
-
 import ScrollButton from "./utilities/ScrollButton";
 import Customnav from "./layout/customnavbar";
 
