@@ -6,8 +6,22 @@ import youtube from "../../assets/youtube.png";
 import opensource from "../../assets/opensource.jpg";
 import TeamCard from "../utilities/TeamCard";
 import Testimonials from "../utilities/Testimonials";
+import React, { useEffect, useState } from "react";
+import axios from "axios";
 
 function Home() {
+  const [contributors ,setContributors] =useState("");
+  useEffect(()=>{
+    axios.get('https://api.github.com/repos/codeflow201/codeflow/contributors?q=contributions&order=desc')
+    .then((response) => {
+      setContributors(response);
+      // console.log(response.data[0].avatar_url);
+      // console.log(response.data[0].login);
+      // console.log(response.data);
+    });
+  })
+
+
   return (
     <>
       <div className="Home" id="Home">
@@ -81,12 +95,15 @@ function Home() {
             <span>Top</span> Contributors
           </h3>
           <div className="home__teamCards">
-            <TeamCard image={youtube} name="Abra ka dabra" />
-            <TeamCard image={youtube} name="Abra ka dabra" />
-            <TeamCard image={youtube} name="Abra ka dabra" />
-            <TeamCard image={youtube} name="Abra ka dabra" />
-            <TeamCard image={youtube} name="Abra ka dabra" />
-            <TeamCard image={youtube} name="Abra ka dabra" />
+         {contributors?(      <React.Fragment>
+           <TeamCard image={contributors.data[0].avatar_url} name={contributors.data[0].login} />
+             <TeamCard image={contributors.data[1].avatar_url} name={contributors.data[1].login}/>
+             <TeamCard image={contributors.data[2].avatar_url} name={contributors.data[2].login}/>
+             <TeamCard image={contributors.data[3].avatar_url} name={contributors.data[3].login} />
+             <TeamCard image={contributors.data[4].avatar_url} name={contributors.data[4].login} />
+             <TeamCard image={contributors.data[5].avatar_url} name={contributors.data[5].login} />
+             </React.Fragment>):``}
+          
           </div>
         </div>
       </div>
