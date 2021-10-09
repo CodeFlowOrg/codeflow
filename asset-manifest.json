@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/codeflow/static/css/main.2c3b03a4.chunk.css",
-    "main.js": "/codeflow/static/js/main.436904a0.chunk.js",
-    "main.js.map": "/codeflow/static/js/main.436904a0.chunk.js.map",
+    "main.js": "/codeflow/static/js/main.dd791777.chunk.js",
+    "main.js.map": "/codeflow/static/js/main.dd791777.chunk.js.map",
     "runtime-main.js": "/codeflow/static/js/runtime-main.b260225c.js",
     "runtime-main.js.map": "/codeflow/static/js/runtime-main.b260225c.js.map",
     "static/css/2.85a71cbb.chunk.css": "/codeflow/static/css/2.85a71cbb.chunk.css",
-    "static/js/2.a07133a6.chunk.js": "/codeflow/static/js/2.a07133a6.chunk.js",
-    "static/js/2.a07133a6.chunk.js.map": "/codeflow/static/js/2.a07133a6.chunk.js.map",
+    "static/js/2.8155baf5.chunk.js": "/codeflow/static/js/2.8155baf5.chunk.js",
+    "static/js/2.8155baf5.chunk.js.map": "/codeflow/static/js/2.8155baf5.chunk.js.map",
     "index.html": "/codeflow/index.html",
     "static/css/2.85a71cbb.chunk.css.map": "/codeflow/static/css/2.85a71cbb.chunk.css.map",
     "static/css/main.2c3b03a4.chunk.css.map": "/codeflow/static/css/main.2c3b03a4.chunk.css.map",
-    "static/js/2.a07133a6.chunk.js.LICENSE.txt": "/codeflow/static/js/2.a07133a6.chunk.js.LICENSE.txt",
+    "static/js/2.8155baf5.chunk.js.LICENSE.txt": "/codeflow/static/js/2.8155baf5.chunk.js.LICENSE.txt",
     "static/media/Home.css": "/codeflow/static/media/Blank Backround 5.4ba9b95c.png",
     "static/media/event.css": "/codeflow/static/media/Blank Backround 4.4acc50ad.png",
     "static/media/EventCalendar.8d1c3bfa.png": "/codeflow/static/media/EventCalendar.8d1c3bfa.png",
@@ -25,8 +25,8 @@
   "entrypoints": [
     "static/js/runtime-main.b260225c.js",
     "static/css/2.85a71cbb.chunk.css",
-    "static/js/2.a07133a6.chunk.js",
+    "static/js/2.8155baf5.chunk.js",
     "static/css/main.2c3b03a4.chunk.css",
-    "static/js/main.436904a0.chunk.js"
+    "static/js/main.dd791777.chunk.js"
   ]
 }
