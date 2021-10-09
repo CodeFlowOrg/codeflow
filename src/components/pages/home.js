@@ -10,17 +10,19 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 
 function Home() {
-  const [contributors ,setContributors] =useState("");
-  useEffect(()=>{
-    axios.get('https://api.github.com/repos/codeflow201/codeflow/contributors?q=contributions&order=desc')
-    .then((response) => {
-      setContributors(response);
-      // console.log(response.data[0].avatar_url);
-      // console.log(response.data[0].login);
-      // console.log(response.data);
-    });
-  })
-
+  const [contributors, setContributors] = useState("");
+  useEffect(() => {
+    axios
+      .get(
+        "https://api.github.com/repos/codeflow201/codeflow/contributors?q=contributions&order=desc"
+      )
+      .then((response) => {
+        setContributors(response);
+        // console.log(response.data[0].avatar_url);
+        // console.log(response.data[0].login);
+        // console.log(response.data);
+      });
+  });
 
   return (
     <>
@@ -49,37 +51,47 @@ function Home() {
           <h3>
             <span>About</span> Us
           </h3>
-          <p>An initiative to contribute to the Student community by providing opportunities, resources, and awareness about the possibilities in the field of software to students & professionals.</p>
+          <p>
+            An initiative to contribute to the Student community by providing
+            opportunities, resources, and awareness about the possibilities in
+            the field of software to students & professionals.
+          </p>
         </div>
         <div className="home__aboutCards">
-       <div className="home__aboutCards">
-          <div className="home__aboutCard1">
-            <img src={opensource} alt="thumbnail" />
-            <h5>OpenSource</h5>
-          </div>
-          <div className="home__aboutCard1">
-            <img src={team} alt="thumbnail" />
-            <h5>Community building</h5>
-          </div>
-          <div className="home__aboutCard1">
-            <img src={youtube} alt="thumbnail" />
-            <h5>Events and Workshops</h5>
+          <div className="home__aboutCards">
+            <div className="home__aboutCard1">
+              <img src={opensource} alt="thumbnail" />
+              <h5>OpenSource</h5>
+            </div>
+            <div className="home__aboutCard1">
+              <img src={team} alt="thumbnail" />
+              <h5>Community building</h5>
+            </div>
+            <div className="home__aboutCard1">
+              <img src={youtube} alt="thumbnail" />
+              <h5>Events and Workshops</h5>
+            </div>
           </div>
         </div>
       </div>
-      </div> 
-     
-  
-    
+
       <Testimonials />
       <div className="home__team">
         <h3>
           <span>Core</span> Team
         </h3>
         <div className="home__teamCards">
-          <TeamCard image={"https://i.ibb.co/BqR6rTK/image.jpg"} name="Hargun Kaur" position="Founder" />
+          <TeamCard
+            image={"https://i.ibb.co/BqR6rTK/image.jpg"}
+            name="Hargun Kaur"
+            position="Founder"
+          />
           <TeamCard image={youtube} name="Abra ka dabra" position="(Unknown)" />
-          <TeamCard image={youtube} name="Abra ka dabra" position="(Unknown)" />
+          <TeamCard
+            image={youtube}
+            name="Priyanshi Sinha"
+            position="Program management lead"
+          />
           <TeamCard image={youtube} name="Abra ka dabra" position="(Unknown)" />
           <TeamCard image={youtube} name="Abra ka dabra" position="(Unknown)" />
           <TeamCard image={youtube} name="Abra ka dabra" position="(Unknown)" />
@@ -95,15 +107,36 @@ function Home() {
             <span>Top</span> Contributors
           </h3>
           <div className="home__teamCards">
-         {contributors?(      <React.Fragment>
-           <TeamCard image={contributors.data[0].avatar_url} name={contributors.data[0].login} />
-             <TeamCard image={contributors.data[1].avatar_url} name={contributors.data[1].login}/>
-             <TeamCard image={contributors.data[2].avatar_url} name={contributors.data[2].login}/>
-             <TeamCard image={contributors.data[3].avatar_url} name={contributors.data[3].login} />
-             <TeamCard image={contributors.data[4].avatar_url} name={contributors.data[4].login} />
-             <TeamCard image={contributors.data[5].avatar_url} name={contributors.data[5].login} />
-             </React.Fragment>):``}
-          
+            {contributors ? (
+              <React.Fragment>
+                <TeamCard
+                  image={contributors.data[0].avatar_url}
+                  name={contributors.data[0].login}
+                />
+                <TeamCard
+                  image={contributors.data[1].avatar_url}
+                  name={contributors.data[1].login}
+                />
+                <TeamCard
+                  image={contributors.data[2].avatar_url}
+                  name={contributors.data[2].login}
+                />
+                <TeamCard
+                  image={contributors.data[3].avatar_url}
+                  name={contributors.data[3].login}
+                />
+                <TeamCard
+                  image={contributors.data[4].avatar_url}
+                  name={contributors.data[4].login}
+                />
+                <TeamCard
+                  image={contributors.data[5].avatar_url}
+                  name={contributors.data[5].login}
+                />
+              </React.Fragment>
+            ) : (
+              ``
+            )}
           </div>
         </div>
       </div>
