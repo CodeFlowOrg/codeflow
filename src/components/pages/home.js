@@ -63,7 +63,7 @@ function Home() {
           <span>Core</span> Team
         </h3>
         <div className="home__teamCards">
-          <TeamCard image={youtube} name="Abra ka dabra" position="(Unknown)" />
+          <TeamCard image={"https://i.ibb.co/BqR6rTK/image.jpg"} name="Hargun Kaur" position="Founder" />
           <TeamCard image={youtube} name="Abra ka dabra" position="(Unknown)" />
           <TeamCard image={youtube} name="Abra ka dabra" position="(Unknown)" />
           <TeamCard image={youtube} name="Abra ka dabra" position="(Unknown)" />
