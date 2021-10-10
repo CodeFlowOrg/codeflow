@@ -56,6 +56,9 @@ const Footer = () => {
               Email Us
             </a>
           </div>
+          <div>
+             <img src={img} alt="Qr-Code LinkendIn" width="150px" height="150px" className="ml-3"/>
+          </div>
         </div>
       </footer>
     </div>
