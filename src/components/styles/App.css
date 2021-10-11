@@ -15,6 +15,7 @@ a:hover {
 .navs {
   display: inline-flex;
   z-index: 1;
+  background-color: #4a403a;
 }
 .fixed {
   width: 100%;
@@ -87,4 +88,12 @@ a:hover {
 
 ::-webkit-scrollbar-thumb:hover {
   background-color: #7D7D7D;
+}
+
+@media(max-width:868px) {
+  .headings-logos-buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
 }

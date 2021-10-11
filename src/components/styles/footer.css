@@ -100,7 +100,7 @@ footer .container {
 }
 
 .social-media-links > h3,
-.other-links > h3 {
+.other-links > h3 ,.footer-link-group > h3 {
   background-color: var(--dark);
   color: #edfbfb !important;
   border-radius: 5px;
