@@ -45,11 +45,6 @@ const Customnav = (props) => {
       <div>
         <Navbar
           className="justify-content-between navbar"
-          style={
-            showLinks && size.width <= "868"
-              ? { background: "#01bfd9" }
-              : { background: props.color }
-          }
         >
           <div className="headings-logos-buttons ">
             <Link to="/">
