@@ -23,6 +23,9 @@ footer .container {
   flex-direction: column;
   align-items: flex-start;
 }
+.footer-link-group a{
+  margin: 3px;
+}
 .footer-link-group a:last-child {
   border-radius: 5px;
   padding: 0 5px;

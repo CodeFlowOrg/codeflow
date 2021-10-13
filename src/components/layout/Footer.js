@@ -1,4 +1,5 @@
 import logo from "../../assets/logo.png";
+import img from "../../assets/Qr-code.png";
 import { Link } from "react-router-dom";
 import "../styles/footer.css";
 
@@ -56,6 +57,9 @@ const Footer = () => {
             <a href="mailto:codefloworg@gmail.com" target="_blank" rel="noreferrer">
               Email Us
             </a>
+          </div>
+          <div>
+          <img src={img} width="200px" height="200px" />
           </div>
         </div>
       </footer>
