@@ -17,6 +17,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="footer-link-group">
+          <h3>Quick Links</h3>
             <Link to="/">Home</Link>
             <Link to="/events">Events</Link>
             <Link to="/hackathon">Hackathons</Link>

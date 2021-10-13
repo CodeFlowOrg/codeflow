@@ -45,26 +45,21 @@ const Customnav = (props) => {
       <div>
         <Navbar
           className="justify-content-between navbar"
-          style={
-            showLinks && size.width <= "685"
-              ? { background: "#01bfd9" }
-              : { background: props.color }
-          }
         >
-          <div className="headings-logos-buttons">
+          <div className="headings-logos-buttons ">
+            <Link to="/">
+              <img src={logo} alt="logo" height={props.height} />
+            </Link>
             <HiOutlineViewList
               style={{ color: "white" }}
               className="nav-dynamic-button"
               size={40}
               onClick={() => setShowLinks(!showLinks)}
             />
-            <Link to="/">
-              <img src={logo} alt="logo" height={props.height} />
-            </Link>
           </div>
           <div
             className="navs"
-            id={showLinks && size.width <= "685" ? "hidden" : ""}
+            id={showLinks && size.width <= "868" ? "hidden" : ""}
           >
             <NavLink
               activeClassName="nav_active"
