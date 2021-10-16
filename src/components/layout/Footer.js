@@ -3,6 +3,13 @@ import img from "../../assets/Qr-code.png";
 import { Link } from "react-router-dom";
 import "../styles/footer.css";
 
+import InstagramIcon from '@mui/icons-material/Instagram';
+import FacebookIcon from '@mui/icons-material/FacebookOutlined';
+import GithubIcon from '@mui/icons-material/GiteOutlined';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import EmailIcon from '@mui/icons-material/EmailOutlined';
+
 const Footer = () => {
   return (
     <div className="footer-styling">
@@ -31,31 +38,31 @@ const Footer = () => {
               href="https://www.facebook.com/"
               target="_blank"
               rel="noreferrer">
-              Facebook
+              <FacebookIcon />
             </a>
             <a href="https://www.twitter.com/" target="_blank" rel="noreferrer">
-              Twitter
+              <TwitterIcon />
             </a>
             <a
               href="https://www.instagram.com/"
               target="_blank"
               rel="noreferrer">
-              Instagram
+              <InstagramIcon />
             </a>
           </div>
           <div className="footer-link-group other-links">
             <h3>Other Links</h3>
             <a href="https://www.github.com/codeflow201" target="_blank" rel="noreferrer">
-              Github
+              <GithubIcon />
             </a>
             <a
               href="https://www.linkedin.com/"
               target="_blank"
               rel="noreferrer">
-              LinkedIn
+              <LinkedInIcon />
             </a>
             <a href="mailto:codefloworg@gmail.com" target="_blank" rel="noreferrer">
-              Email Us
+              <EmailIcon />
             </a>
           </div>
           <div>
