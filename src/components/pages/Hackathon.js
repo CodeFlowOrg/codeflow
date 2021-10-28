@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Customnav from "../layout/customnavbar";
 import "../styles/hackathon.css";
 import img1 from "../../assets/img1.png";
 import HackCard from "../utilities/HackCard";
@@ -50,6 +49,7 @@ function Hackathon() {
               } else if (item.cat === option) {
                 return item;
               }
+              return null;
             }).map((item) => {
               return (
                 <HackCard
