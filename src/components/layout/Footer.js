@@ -33,11 +33,11 @@ const Footer = () => {
               rel="noreferrer">
               Facebook
             </a>
-            <a href="https://www.twitter.com/" target="_blank" rel="noreferrer">
+            <a href="https://twitter.com/codefloworg" target="_blank" rel="noreferrer">
               Twitter
             </a>
             <a
-              href="https://www.instagram.com/"
+              href="https://www.instagram.com/codefloworg/"
               target="_blank"
               rel="noreferrer">
               Instagram
@@ -45,11 +45,11 @@ const Footer = () => {
           </div>
           <div className="footer-link-group other-links">
             <h3>Other Links</h3>
-            <a href="https://www.github.com/codeflow201" target="_blank" rel="noreferrer">
+            <a href="https://github.com/CodeFlowOrg" target="_blank" rel="noreferrer">
               Github
             </a>
             <a
-              href="https://www.linkedin.com/"
+              href="https://www.linkedin.com/company/codefloworg/"
               target="_blank"
               rel="noreferrer">
               LinkedIn
