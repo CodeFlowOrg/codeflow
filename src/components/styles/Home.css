@@ -20,7 +20,7 @@
   width: 735px;
 }
 .son__Para{
-  color: #663F3F;
+  color: var(--orange);
   ;
 }
 .son__Para h3{
@@ -164,8 +164,8 @@ color: #FFC069;
     max-width: none !important;
     text-align: center !important;
   }
-  .son__Para h3 span{
-    color: #fff;
+  .son__Para h3 span {
+    color: #ffc069;
   }
 }
 
